@@ -20,24 +20,23 @@ VM Lifecycle :
 
 The VM Lifecycle describes all the states and stages a Virtual Machine goes through—from creation to deletion.
 
-In Simple Manner we can Describe the VM Lifecycle [ In point of Interview ] 
+In Simple Manner we can Describe the VM Lifecycle [ In point of Interview ]:
 
-Stage	                            Description
 
-Create	                              VM configuration & resource allocation
+       Create	                              VM configuration & resource allocation
 
-Start	                                VM boots
+       Start	                                VM boots
 
-Running	                              Active usage
+       Running	                              Active usage
 
-Suspend	                              Paused state
+       Suspend	                              Paused state
 
-Snapshot	                            State capture
+       Snapshot	                            State capture
 
-Stop	                                shutdown
+       Stop	                                shutdown
 
-Migrate	                              Move VM
+       Migrate	                              Move VM
 
-Clone	                                Duplicate VM
+       Clone	                                Duplicate VM
 
-Delete	                              VM removed
+       Delete	                              VM removed
