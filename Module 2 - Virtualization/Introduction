@@ -1,1 +1,25 @@
+Virtualization : 
+       Virtualization is a technology that allows multiple virtual machines (VMs) to run on a single physical machine by abstracting (separating) the hardware resources like CPU, RAM, storage, and network.
+       In Simple Words - " One Physical Server-many independent Virutal servers ".
+
+Why Virtualization is Needed (Problem → Solution)
+Before Virtualization
+      One application = one physical server
+      Hardware underutilized (CPU used only 10–20%)
+      High cost
+      Difficult scaling
+      Manual recovery if server fails
+
+After Virtualization
+      Multiple OS on one server
+      Better resource utilization
+      Cost saving
+      Easy scaling
+      Fast recovery
+
+Types of Virtualization: 
+There are 3 Types of Virtualization : 
+       Server Virtualization - Running linux + windows on same hardware
+       Network Virtualization - VPC, Subnets
+       Storage Virtualization - Mutilple disks - logical storage - SAN
 
