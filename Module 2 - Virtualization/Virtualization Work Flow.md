@@ -52,9 +52,9 @@ Type 2 : Hosted Hypervisor { Runs on top of OS }
 
 Snapshot : 
 
-     A snapshot is a point-in-time copy of a Virtual Machine that captures its disk state, configuration, and sometimes memory, so you can roll back the VM to that exact moment if something goes wrong.
+          A snapshot is a point-in-time copy of a Virtual Machine that captures its disk state, configuration, and sometimes memory, so you can roll back the VM to that exact moment if something goes wrong.
 
-     Snapshot is NOT a backup.
+          Snapshot is NOT a backup.
 
-     In Simple Words - " A snapshot allows you to restore a VM to a previous state." 
+          In Simple Words - " A snapshot allows you to restore a VM to a previous state." 
     
