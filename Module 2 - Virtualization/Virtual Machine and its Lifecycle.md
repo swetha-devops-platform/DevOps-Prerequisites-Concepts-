@@ -25,18 +25,20 @@ In Simple Manner we can Describe the VM Lifecycle [ In point of Interview ]:
 
        Create	                              VM configuration & resource allocation
 
-       Start	                                VM boots
+       Start	                              VM boots
 
        Running	                              Active usage
 
        Suspend	                              Paused state
 
-       Snapshot	                            State capture
+       Snapshot	                              State capture
 
-       Stop	                                shutdown
+       Stop	                                    shutdown
 
        Migrate	                              Move VM
 
-       Clone	                                Duplicate VM
+       Clone	                              Duplicate VM
 
        Delete	                              VM removed
+
+       
