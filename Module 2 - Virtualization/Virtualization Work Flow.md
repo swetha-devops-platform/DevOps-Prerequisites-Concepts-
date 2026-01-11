@@ -1,6 +1,7 @@
 Work Flow of Virtualization: 
 
 Terminologies : 
+
       Host OS - Operating system on Physical Computers
       
       Guest OS - Operating system of Virtual Machine. 
