@@ -1,15 +1,12 @@
 Vagrant : 
 
-    Vagrant is a tool for creating and managing virtual development environments using configuration files, so developers can quickly create identical VMs on any system.
+        Vagrant is a tool for creating and managing virtual development environments using configuration files, so developers can quickly create identical VMs on any system.
     
-    Vagrant is also said to be an VM Automation Tool and manages the VM Lifecycle.
+        Vagrant is also said to be an VM Automation Tool and manages the VM Lifecycle.
     
-    Its not an replacement of hypervisor like oracle virtual box, vm ware but it uses these tool to create and manage the virtual machines.
+        Its not an replacement of hypervisor like oracle virtual box, vm ware but it uses these tool to create and manage the virtual machines.
 
-    mainly for development/testing.
-
-
-![0_MIoKBVhgeZ8lVQ5A](https://github.com/user-attachments/assets/a11f3eb0-3d70-4e29-b1bf-b405bfcbcaa6)
+        mainly for development/testing, not for production
 
 
 Why Vagrant is Used: 
@@ -51,6 +48,7 @@ Step 3 : Starting up the VM
 Step 4 : Logging into VM 
 
 <img width="610" height="75" alt="image" src="https://github.com/user-attachments/assets/1cddf270-3cf4-4e7c-ad28-07877e3eab21" />
+
 
 
 Common Vagrant Commands: 
