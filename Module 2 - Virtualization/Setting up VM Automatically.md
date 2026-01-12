@@ -9,7 +9,7 @@ Vagrant :
     mainly for development/testing.
 
 
-                            ![0_MIoKBVhgeZ8lVQ5A](https://github.com/user-attachments/assets/a11f3eb0-3d70-4e29-b1bf-b405bfcbcaa6)
+![0_MIoKBVhgeZ8lVQ5A](https://github.com/user-attachments/assets/a11f3eb0-3d70-4e29-b1bf-b405bfcbcaa6)
 
 
 Why Vagrant is Used: 
@@ -38,19 +38,19 @@ Vagrant Workflow :
 
 Step 1 : Create an Project Directory 
 
-                       <img width="387" height="58" alt="image" src="https://github.com/user-attachments/assets/7c474ba8-88a3-4e0b-8a3b-eaf6f45671a7" />
+<img width="387" height="58" alt="image" src="https://github.com/user-attachments/assets/7c474ba8-88a3-4e0b-8a3b-eaf6f45671a7" />
 
 Step 2 : Create an Vagrant file from vagrant cloud boxes and placed in project directory
 
-                       <img width="761" height="144" alt="image" src="https://github.com/user-attachments/assets/0bc0c61a-6975-4ed4-a418-58de624f59a1" />
+<img width="761" height="144" alt="image" src="https://github.com/user-attachments/assets/0bc0c61a-6975-4ed4-a418-58de624f59a1" />
 
 Step 3 : Starting up the VM 
 
-                        <img width="649" height="90" alt="image" src="https://github.com/user-attachments/assets/34b4fa6c-f414-4cbd-9a2d-915080327976" />
+<img width="649" height="90" alt="image" src="https://github.com/user-attachments/assets/34b4fa6c-f414-4cbd-9a2d-915080327976" />
 
 Step 4 : Logging into VM 
 
-                        <img width="610" height="75" alt="image" src="https://github.com/user-attachments/assets/1cddf270-3cf4-4e7c-ad28-07877e3eab21" />
+<img width="610" height="75" alt="image" src="https://github.com/user-attachments/assets/1cddf270-3cf4-4e7c-ad28-07877e3eab21" />
 
 
 Common Vagrant Commands: 
