@@ -4,7 +4,7 @@ What is Maven Architecture :
 
 Core Components of Maven Architecture: 
 
-1.POM.xml (Project Object Model) – Heart of Maven
+1. POM.xml (Project Object Model) – Heart of Maven
 
                  Configuration file for the project
 
@@ -29,28 +29,28 @@ Maven reads only pom.xml to execute everything
 <img width="671" height="461" alt="Maven-Build-Life-Cycle" src="https://github.com/user-attachments/assets/21cfdcdd-46dd-42ac-8fd1-6dbc976f20e6" />
 
 
- 1. Clean
+    1. Clean
    
       clean → deletes old build files
    
- 2. Default (Main)
+    2. Default (Main)
    
-     validate -  validate the project is correct and information is avialable.
+        validate -  validate the project is correct and information is avialable.
    
-     compile  -  complie the source code
+        compile  -  complie the source code
 
-     test	  -  unit test will be happen and these test should not required the code to be packaged or delopyed
+        test	  -  unit test will be happen and these test should not required the code to be packaged or delopyed
    
-     package  -  packaged it in its distributabe format such as JAR
+        package  -  packaged it in its distributabe format such as JAR
    
-     Verify   -  run any checks on intergration test results to ensure quality criteria are met
+        Verify   -  run any checks on intergration test results to ensure quality criteria are met
    
-     install  -  install package into local repository, for use as a dependency in other projects locally.
+        install  -  install package into local repository, for use as a dependency in other projects locally.
    
-     deploy	  -  done in build environment, cpies the final package to remote repsitory for sharing with other developers and projects
+        deploy	  -  done in build environment, cpies the final package to remote repsitory for sharing with other developers and projects
    
    
-  3. Site
+    3. Site
    
      Generates project documentation
 
