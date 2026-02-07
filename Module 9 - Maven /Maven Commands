@@ -1,0 +1,19 @@
+What are Maven Commands?
+
+         Maven commands are used to build, test, package, and deploy applications using the instructions in pom.xml.
+
+Basic syntax:
+
+             mvn <command>
+
+MOST IMPORTANT MAVEN COMMANDS (YOU MUST KNOW)
+
+    . mvn clean - Deletes old build files [Removes the target/ folder]
+    . mvn validate - Check project structure
+    . mvn compile - Compiles source code [ Converts .java → .class and Stores in target/classes]
+    . mvn test - Runs unit test cases [ Executes tests using JUnit/TestNG ] 
+    . mvn package - Creates deployable file [ Generates JAR / WAR & Output in target/]
+    . mvn install - Installs build into local repository [ Builds project & Stores artifact in .m2/repository ]
+    . mvn deploy (PRODUCTION) - Deploys artifact to remote repository [ Pushes JAR/WAR to Nexus/Artifactory ]
+    . mvn clean install (MOST USED) - Clean + build + install in one command
+
