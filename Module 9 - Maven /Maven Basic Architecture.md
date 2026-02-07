@@ -10,7 +10,7 @@ Core Components of Maven Architecture:
 
                  Contains:
 
-                     Project details (groupId, artifactId, version)
+                     Project details (groupId(Company or organization ), artifactId (Project Name), version(Application Version) )
 
                      Dependencies
 
