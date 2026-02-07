@@ -4,6 +4,7 @@ What is Maven ?
          It is maintained by Apache Maven.
 
 Why Do We Even Need Maven?
+
 Imagine this situation 
   You wrote a Java application
        It needs external libraries (Spring, Log4j, etc.)
@@ -16,12 +17,14 @@ Doing all this manually is time Conusming and there will be an human Error
           " Maven automates all of this " 
 
 Before Maven :
+
     Developers manually downloaded JAR files
     Different versions on different machines
     No standard project structure
     Builds failed on other systems
 
 With Maven :
+
     Automatic dependency download
     Same build everywhere
     Standard folder structure
