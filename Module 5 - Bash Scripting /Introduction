@@ -1,1 +1,53 @@
+What is CLI [ Command Line Interace ]:
+    A way to interact with a computer program by typing text Commands 
+
+What is a Shell Script?
+    A shell script is a file containing Linux commands executed line by line.
+    Example:
+        echo "Hello DevOps"
+        date
+        whoami
+
+What is Bash?
+     Bash (Bourne Again SHell) is a command-line interpreter used to:
+           Run Linux commands
+           Automate tasks
+           Write scripts for servers & DevOps pipelines
+    In DevOps, everything runs on Linux → Bash is mandatory
+
+Why Do We Need Bash Scripting?
+1.Automates repetitive tasks
+Bash scripting allows us to automate tasks like monitoring, backups, installations, and deployments instead of running commands manually every time.
+
+2.Saves time and effort
+Multiple commands can be executed using a single script, which significantly reduces manual work and increases productivity.
+
+3.Reduces human errors
+Scripts run the same commands in the same order every time, minimizing mistakes caused by manual execution.
+
+4.Essential for Linux system administration
+Bash is widely used to manage users, services, files, permissions, and processes on Linux servers.
+
+5.Core skill for DevOps engineers
+Bash scripting is heavily used in CI/CD pipelines, automation workflows, and infrastructure management.
+
+6.Improves consistency across environments
+The same script can be used in development, testing, and production environments, avoiding configuration mismatches.
+
+7.Helps in monitoring and alerting
+Bash scripts can monitor disk usage, memory, CPU, and services, helping detect issues before failures occur.
+
+8.Lightweight and cost-effective
+Bash comes preinstalled on most Linux systems and does not require additional tools or licenses.
+
+9.Supports scalability
+Scripts can be reused across multiple servers, making it easier to manage large infrastructures.
+
+Why Bash is Important in DevOps (Interview Point)
+        Server automation
+        CI/CD pipeline scripts
+        Log monitoring
+        Backup & cleanup jobs
+        Cloud & container startup scripts
+
 
