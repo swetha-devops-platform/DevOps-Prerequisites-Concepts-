@@ -1,8 +1,0 @@
-Setting Up a Linux VM for Bash Scripting  by using Vagrant Tool : 
-
-To practice and execute Bash scripts safely, a Linux-based virtual machine (VM) is set up.
-A VM provides an isolated environment that closely resembles real production servers.
-Most production and DevOps servers run on Linux, making VM-based practice realistic.
-Using a VM allows writing, testing, and automating Bash scripts without affecting the host system.
-This setup ensures consistent practice across development, testing, and automation scenarios.
-The VM is created using virtualization tools such as VirtualBox or VMware.
