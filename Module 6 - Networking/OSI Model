@@ -16,3 +16,14 @@ Layer Number	                     Layer Name	                  Function
 3	                                   Network	           Routing (IP address)
 2	                                    Data               Link	MAC address, Frames
 1	                                  Physical	           Cables, Signals
+
+Real-Life Example (Opening Google)
+
+Let’s say you type: www.google.com
+Layer 7 – Application  - Browser sends HTTP request.
+Layer 6 – Presentation - Data gets encrypted using SSL/TLS (HTTPS).
+Layer 5 – Session - Session established between client and server.
+Layer 4 – Transport - TCP establishes 3-way handshake.
+Layer 3 – Network - IP address added for routing.
+Layer 2 – Data Link - MAC address added.
+Layer 1 – Physical - Bits travel through cable/WiFi.
