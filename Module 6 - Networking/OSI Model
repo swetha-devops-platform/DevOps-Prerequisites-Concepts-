@@ -1,0 +1,18 @@
+What is OSI Layer : 
+      The OSI (Open Systems Interconnection) Model is a 7-layer conceptual framework used to understand how data travels from one device to another over a network.
+      It standardizes networking communication into layers.
+
+Why OSI Model is Important?
+      Helps troubleshoot network issues
+      Explains how data flows
+      Used in networking interviews
+      Foundation for TCP/IP understanding
+
+Layer Number	                     Layer Name	                  Function
+7	                                 Application	         User interaction (HTTP, FTP)
+6	                                 Presentation	         Encryption & Formatting
+5	                                   Session	           Session management
+4	                                  Transport	           End-to-end delivery (TCP/UDP)
+3	                                   Network	           Routing (IP address)
+2	                                    Data               Link	MAC address, Frames
+1	                                  Physical	           Cables, Signals
