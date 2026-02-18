@@ -71,11 +71,6 @@ Common Vagrant Commands:
              
              vagrant status - Check state
 
-Vagrant File : 
-
-            A Vagrantfile is a configuration file used by Vagrant to define how a virtual machine should be created and configured.
-
-            Vagrantfile is an Infrastructure-as-Code file that describes a VM environment.
 
 Role of Vagrant in DevOps
 
@@ -88,6 +83,45 @@ Role of Vagrant in DevOps
                   CI/CD experimentation
 
                   Infrastructure learning
+
+Key Concepts in Vagrant - Based on Interview Based
+
+Vagrant File : 
+
+            A Vagrantfile is a configuration file used by Vagrant to define how a virtual machine should be created and configured.
+
+            Vagrantfile is an Infrastructure-as-Code file that describes a VM environment.
+
+Vagrant Box : 
+
+            A Box is a pre-configured OS image used by Vagrant to create virtual machines.
+
+            Example: ubuntu/focal64, centos/7.
+
+Provider in Vagrant : 
+
+            A Provider is the virtualization platform that Vagrant uses to create VMs.
+
+            Common provider: Oracle VM VirtualBox, VMware, Hyper-V.
+
+Provisioning in Vagrant : 
+
+            Provisioning is the process of automatically installing and configuring software inside the VM after it is created.
+
+            Types: Shell scripts, Ansible, Puppet, Chef
+
+            Example : config.vm.provision "shell", inline: "sudo apt install -y nginx"
+
+Synced Folder : 
+
+            It syncs a folder between host machine and VM.
+
+            Example: config.vm.synced_folder ".", "/vagrant"
+
+
+            
+
+
 
 
 
