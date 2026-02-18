@@ -134,9 +134,17 @@ Vagrant Networking :
                             
                                              we use it to access services running inside the VM from your local browser.
 
+<img width="852" height="123" alt="image" src="https://github.com/user-attachments/assets/f2ce17ad-3442-4139-8c7e-2e86e537fb01" />
+
+
                             Private Network - Private network assigns a static IP to the VM for internal communication between host and other VMs.
 
+<img width="836" height="83" alt="image" src="https://github.com/user-attachments/assets/0003136d-b7c6-4d8a-a9cc-bf3f1c749419" />
+
+
                             Public Network - Public network connects the VM directly to the external network using bridged mode, allowing it to behave like a real machine on the network.
+
+<img width="865" height="98" alt="image" src="https://github.com/user-attachments/assets/66b7fb9b-8ad1-486d-9a74-15c1539af39d" />
 
 
             
