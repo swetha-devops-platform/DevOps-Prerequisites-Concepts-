@@ -1,6 +1,7 @@
 What is OSI Layer : 
       The OSI (Open Systems Interconnection) Model is a 7-layer conceptual framework used to understand how data travels from one device to another over a network.
       It standardizes networking communication into layers.
+      Its developed by ISO in 1984
 
 Why OSI Model is Important?
       Helps troubleshoot network issues
@@ -8,17 +9,21 @@ Why OSI Model is Important?
       Used in networking interviews
       Foundation for TCP/IP understanding
 
-Layer Number	                     Layer Name	                  Function
-7	                                 Application	         User interaction (HTTP, FTP)
-6	                                 Presentation	         Encryption & Formatting
-5	                                   Session	           Session management
-4	                                  Transport	           End-to-end delivery (TCP/UDP)
-3	                                   Network	           Routing (IP address)
-2	                                    Data               Link	MAC address, Frames
-1	                                  Physical	           Cables, Signals
+The Basic Elements of OSI Model Layered are, 3 Types 
+       1. Services - It is an Set of actions that a layer offers to another higher layer 
+       2. Protocol - Protocol is a set of rules that layer uses to exchange information.
+       3. Interface - A Communication between layers 
 
-Real-Life Example (Opening Google)
+Layer Number	 Layer Name	          Function                                                                Data Unit 
+7	             Application	    User interaction (HTTP, FTP) or Network Process to application          Data
+6	             Presentation	    Data Encryption & Formatting or representation                          Data
+5	             Session	          Session management or Interhost Communication                           Data
+4	             Transport	          End-to-end delivery (TCP/UDP) 0r Reliability                            Segments
+3	             Network	          Routing (IP address) or path determination and logical Addressing       Packets 
+2	             Data                 Link, MAC address, Frames or physical Addressing                        Frames 
+1	             Physical	          Cables, Signals, Media and Binary Transmission                          Bits  
 
+Real-Life Example - (Opening Google) & ( Sending and receiving Letters ) 
 Let’s say you type: www.google.com
 Layer 7 – Application  - Browser sends HTTP request.
 Layer 6 – Presentation - Data gets encrypted using SSL/TLS (HTTPS).
@@ -27,3 +32,26 @@ Layer 4 – Transport - TCP establishes 3-way handshake.
 Layer 3 – Network - IP address added for routing.
 Layer 2 – Data Link - MAC address added.
 Layer 1 – Physical - Bits travel through cable/WiFi.
+
+
+Comparison of DOD Model with OSI Model and Knowing their Protocols and Devices 
+OSI Model              DOD Model               Protocols                                           Devices 
+Layer 5,6,7            Application Layer       DNS, DHCP, NTP, SNMP, HTTP, HTTPS, FTP, TELNET      Web server,mail server, Browser and Mailclient
+Layer 4                Host to host Layer      TCP, UDP                                            Gateway
+Layer 3                Internet                IP, ICMP, IGMP                                      Router, firewall, Switch
+Layer 2                Network access          mac, arp,rarp                                       Bridge and layer2 switch
+Layer 1                Network access          Ethernet, TokenRing                                 Hub
+
+Summary of the OSI Model: 
+1. Physical Layer - To Transmits the bits over the medium, To provide mechanical and electrical Specifications.
+2. Data Link Layer - To Organize bits into frames, to provide hop to hop delivery
+3. Network Layer - To move packets from source to destination, To provide internet working
+4. Transport Layer - To Provide reliable process to process messages delivery and error recovery
+5. Session Layer  To establish, manage and terminate the session
+6. Presentation Layer - To Translate, encrypt and compress data.
+7. Application Layer - To allow access to network resources. 
+
+
+
+
+
