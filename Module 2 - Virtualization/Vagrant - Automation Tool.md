@@ -106,11 +106,14 @@ Provider in Vagrant :
 
 Provisioning in Vagrant : 
 
-            Provisioning is the process of automatically installing and configuring software inside the VM after it is created.
+Provisioning is the process of automatically installing and configuring software inside the VM after it is created.
 
-            Types: Shell scripts, Ansible, Puppet, Chef
+Types: Shell scripts, Ansible, Puppet, Chef
 
-            Example : config.vm.provision "shell", inline: "sudo apt install -y nginx"
+Example : config.vm.provision "shell", inline: "sudo apt install -y nginx"
+
+<img width="865" height="177" alt="image" src="https://github.com/user-attachments/assets/9e06d7b9-8e3b-4a3d-a1ba-0f1d94f156b1" />
+
 
 Synced Folder or Directories : 
 
