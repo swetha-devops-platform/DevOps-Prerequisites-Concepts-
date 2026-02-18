@@ -112,11 +112,24 @@ Provisioning in Vagrant :
 
             Example : config.vm.provision "shell", inline: "sudo apt install -y nginx"
 
-Synced Folder : 
+Synced Folder or Directories : 
 
-            It syncs a folder between host machine and VM.
+It syncs a folder between host machine and VM.
 
-            Example: config.vm.synced_folder ".", "/vagrant"
+Default Sync Directories : 
+
+<img width="671" height="400" alt="image" src="https://github.com/user-attachments/assets/47c57c2e-c04a-4a3d-a0f3-31637fb3066c" />
+
+What are the files and folders we are creating will be display in our base machine 
+
+<img width="872" height="329" alt="image" src="https://github.com/user-attachments/assets/e42359e8-4cbd-4146-82dd-287559af4292" />
+
+How to configure the sync Directories: 
+
+To Configure the Sync directories, we have to create the folder in the base machine and the we can configure by using below mentioned image 
+
+<img width="789" height="124" alt="image" src="https://github.com/user-attachments/assets/da2c282f-5838-4298-9189-15136e57b455" />
+
 
 Vagrant Networking : 
 
@@ -143,6 +156,33 @@ Private Network - Private network assigns a static IP to the VM for internal com
 Public Network - Public network connects the VM directly to the external network using bridged mode, allowing it to behave like a real machine on the network.
 
 <img width="865" height="98" alt="image" src="https://github.com/user-attachments/assets/66b7fb9b-8ad1-486d-9a74-15c1539af39d" />
+
+
+How To change RAM in VM by using Vagrant : 
+
+RAM is memory allocated from host machine to VM.
+
+<img width="649" height="152" alt="image" src="https://github.com/user-attachments/assets/fdc04c60-86d0-4f45-840a-358992f74136" />
+
+How to increase CPU in VM : 
+
+In Vagrant, CPU means vCPU assigned to the VM. It is taken from your laptop’s physical CPU.Usually 1 vCPU is assigned
+
+Example : config.vm.provider "virtualbox" do |vb|
+
+          vb.cpus = 2
+          
+          end
+
+          
+After Doing all the changes to the VM, we need to run the " Vagrant reload " - To changes have to save.
+
+Parralley we have to see that this changes will be automatically update in our Virutal Box 
+
+<img width="1358" height="609" alt="image" src="https://github.com/user-attachments/assets/45e9de67-9a3f-430c-8442-ab30dcff896a" />
+
+
+
 
 
             
