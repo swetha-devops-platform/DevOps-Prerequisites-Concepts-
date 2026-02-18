@@ -8,6 +8,12 @@ Vagrant :
 
         mainly for development/testing, not for production
 
+Who Created Vagrant?
+
+       It was created by HashiCorp, the same company that created:
+
+            Terraform, Vault, Consul
+
 
 Why Vagrant is Used: 
 
