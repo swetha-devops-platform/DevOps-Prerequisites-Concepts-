@@ -118,6 +118,26 @@ Synced Folder :
 
             Example: config.vm.synced_folder ".", "/vagrant"
 
+Vagrant Networking : 
+
+             In Vagrant, networking is used to control how the Virtual Machine (VM) communicates:
+
+                            With the Host machine
+
+                            With Other VMs
+
+                            With the External network / Internet
+
+             Vagrant supports:
+
+                            Forwarded Port - It forwards traffic from a host machine port → guest VM port 
+                            
+                                             we use it to access services running inside the VM from your local browser.
+
+                            Private Network - Private network assigns a static IP to the VM for internal communication between host and other VMs.
+
+                            Public Network - Public network connects the VM directly to the external network using bridged mode, allowing it to behave like a real machine on the network.
+
 
             
 
