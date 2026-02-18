@@ -21,6 +21,10 @@ Networks based on geographical coverage are classified into 4 Types
                                      Example: Internet service provider network across a city, Government city-wide network
                                      Technology: Fiber optic cables
 
+5.CAN - Campus Area Network - A Campus Area Network (CAN) is a network that connects multiple buildings within a limited geographical area like:College campus, University
+                            Corporate office campus, Hospital campus
+                            It is bigger than a LAN but smaller than a MAN.
+
 
 TYPES OF NETWORK BASED ON CLOUD COMPUTING : 
 Cloud Networking - Cloud networking refers to the configuration and management of network resources such as VPCs, subnets, route tables, gateways, and security controls inside a cloud environment like AWS.
