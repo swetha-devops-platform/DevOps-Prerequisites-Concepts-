@@ -108,3 +108,43 @@ Why?
 Supports logical operators easily
 
 Safer for strings
+
+The First ifstatement Scripts : 
+
+Findout the lower numbers between 2 numbers: 
+
+Script: 
+
+<img width="814" height="468" alt="image" src="https://github.com/user-attachments/assets/46fbe25f-5fb3-4a06-be57-2ac7a88773af" />
+
+Output: 
+
+<img width="731" height="350" alt="image" src="https://github.com/user-attachments/assets/e5c46656-c323-49b5-ad63-5211220bb4c8" />
+
+
+ifelsestatement Scripts: 
+
+Script : 
+
+<img width="743" height="494" alt="image" src="https://github.com/user-attachments/assets/b93892b8-d30d-41ea-922b-b8d7a14953e1" />
+
+
+output : 
+
+<img width="674" height="747" alt="image" src="https://github.com/user-attachments/assets/d1a6c3e8-58a1-41ad-8098-a21d56ca6999" />
+
+
+if-elif-else Statement Scripts: 
+
+Scripts : 
+
+<img width="804" height="549" alt="image" src="https://github.com/user-attachments/assets/290c7ff1-31ae-4d3d-94d4-d1b116d6e550" />
+
+
+Output : 
+
+<img width="689" height="765" alt="image" src="https://github.com/user-attachments/assets/39b5cdba-d240-4b11-8227-2046e4180e34" />
+
+
+
+
