@@ -45,9 +45,9 @@ Important : If you don't use quotes:
 
 Method 2 : Passwordless SSH (Best Practice)
 
-Typing password every time is not good for automation.
+          Typing password every time is not good for automation.
 
-So we use SSH Key-based authentication.
+          So we use SSH Key-based authentication.
 
 Step 1: Generate SSH Key
 
