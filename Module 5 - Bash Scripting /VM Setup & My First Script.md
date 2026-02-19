@@ -23,6 +23,12 @@ We will get 3 Virutal Machine and going to write an Scripts for these Machine
 
 Step 3 : Run the VM 1 and Login to the virutal machine and change the hostname for that machine and same for Balance 2 VM 
 
+<img width="679" height="82" alt="image" src="https://github.com/user-attachments/assets/239ea952-f673-4b48-a1f7-840200d83c78" />
+
+
+
+
+
 
 
 
