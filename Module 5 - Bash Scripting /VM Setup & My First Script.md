@@ -26,6 +26,23 @@ Step 3 : Run the VM 1 and Login to the virutal machine and change the hostname f
 <img width="679" height="82" alt="image" src="https://github.com/user-attachments/assets/239ea952-f673-4b48-a1f7-840200d83c78" />
 
 
+<img width="598" height="122" alt="image" src="https://github.com/user-attachments/assets/4339e535-2923-40ea-9bcc-eeff0158b28c" />
+
+Change the Hostname for the Machine by using the below mentioned commands 
+
+<img width="484" height="111" alt="image" src="https://github.com/user-attachments/assets/1bae7dd6-7c82-4c50-9869-f9e820658f0c" />
+
+
+<img width="601" height="152" alt="image" src="https://github.com/user-attachments/assets/af646f0c-c926-4bba-adb2-f74049982468" />
+
+Step 4: Wrtiting the bash scripts for the VM1(SCRIPTBOX),Switch into rootuser 
+
+
+
+
+
+
+
 
 
 
