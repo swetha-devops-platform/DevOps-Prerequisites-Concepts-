@@ -8,6 +8,8 @@ What is IF Statement?
 
        If FALSE → skip or execute else block
 
+       In bash scripting value of 0 means true and 1 is false 
+
 Basic Syntax 
 
 1. If Statement :
