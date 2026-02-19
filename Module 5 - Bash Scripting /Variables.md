@@ -1,14 +1,17 @@
 Variable : 
+
         A variable in Bash is a named container used to store data like strings, numbers, or command output.
         Bash variables are dynamically typed (no need to declare data type).
         We use an " = " Sign to declare an Variable 
 
 Declareing  a variable: 
+
 name=Swetha
 age=24
 " Important - No spaces around = "
 
 Accessing a variable: 
+
 echo $name
 Use $ symbol to access the value.
 
@@ -20,102 +23,94 @@ Variable Types in Bash
 
 Even though Bash has no strict data types, we use them like this:
 
-🔹 1. String Variable
+1. String Variable
+   
 city="Chennai"
 
-🔹 2. Number Variable
+3. Number Variable
+   
 num=10
 
-🔹 3. Command Substitution Variable
-
-Stores output of a command.
+3. Command Substitution Variable - Stores output of a command.
 
 current_user=$(whoami)
+
 today=$(date)
 
-5️⃣ Local vs Global Variables
-🔹 Local Variable
-
-Inside function only.
+4. Local Variables: Inside function only.
 
 function greet() {
     local name="Swetha"
     echo $name
 }
 
-🔹 Global Variable
-
-Accessible everywhere.
+5. Global Variable - Accessible everywhere.
 
 name="Swetha"
 
-6️⃣ Environment Variables 🌍
-
-Predefined system variables.
+6. Environment Variables - Predefined system variables.
 
 Example:
-echo $HOME
-echo $USER
-echo $PATH
-echo $PWD
 
-Common Environment Variables
-Variable	Meaning
-$HOME	User home directory
-$USER	Current user
-$PATH	Executable search path
-$PWD	Present working directory
-$SHELL	Current shell
-7️⃣ Exporting Variables
+echo $HOME - User home directory
+echo $USER - Current user
+echo $PATH - Executable search path
+echo $PWD  - Present working directory
+echo $SHELL - Current shell
 
-If you want a variable available to child processes:
+7. Exporting Variables - If you want a variable available to child processes:
 
 export project=DevOps
 
-
-Now child scripts can use it.
-
-8️⃣ Read Input from User
-read name
-echo "Hello $name"
-
+8. read Input from User
+   
+            read name
+            echo "Hello $name"
 
 With message:
+           read -p "Enter your name: " name
 
-read -p "Enter your name: " name
+9. Default Values in Variables
+    
+echo ${name:-"DefaultName"}
+If name is empty → prints DefaultName.
 
-9️⃣ Special Variables (Very Important for DevOps 🔥)
-Variable	Meaning
-$0	Script name
-$1	First argument
-$2	Second argument
-$#	Number of arguments
-$@	All arguments
-$?	Last command exit status
-$$	Process ID
+10. Constant Variable (Readonly)
+    
+readonly company="TCS"
+Cannot change later.
+
+11. Arithmetic with Variables
+    
+          a=10
+          b=5
+          sum=$((a+b))
+          echo $sum
+
+
+Special Variables (Very Important for DevOps 🔥)
+
+Variable	      Meaning
+
+$0	              Script name
+
+$1	              First argument
+
+$2	              Second argument
+
+$#	              Number of arguments
+
+$@	              All arguments
+
+$?	              Last command exit status
+
+$$	              Process ID
+
 Example:
-./script.sh Swetha DevOps
 
+./script.sh Swetha DevOps
 
 Inside script:
 
 echo $1   # Swetha
 echo $2   # DevOps
-
-🔟 Default Values in Variables
-echo ${name:-"DefaultName"}
-
-
-If name is empty → prints DefaultName.
-
-1️⃣1️⃣ Constant Variable (Readonly)
-readonly company="TCS"
-
-
-Cannot change later.
-
-1️⃣2️⃣ Arithmetic with Variables
-a=10
-b=5
-sum=$((a+b))
-echo $sum
