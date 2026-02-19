@@ -10,12 +10,14 @@ What is IF Statement?
 
 Basic Syntax 
 
-1. If Statement : 
+1. If Statement :
+   
 
       if [ condition ]
       then
             commands
       fi
+   
 
 Important:
 
@@ -24,7 +26,8 @@ Important:
       fi means end of if (reverse of if)
 
 
-2. If-Else Statement: 
+2. If-Else Statement:
+   
 
       if [ condition ]
       then
@@ -32,6 +35,7 @@ Important:
       else
           commands_if_false
       fi
+   
 
 
 3.If-Elif-Else (Multiple Conditions):
