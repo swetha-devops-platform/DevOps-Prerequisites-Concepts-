@@ -46,11 +46,6 @@ Whats is shebang Statement ?
    ```bash
     chmod +x script.sh
     ./script.sh
-    ```
 
-11. If you run script like this
-    ```bash
-    bash script.sh
-    ```
 Shebang is ignored, because you explicitly mention the interpreter.
 
