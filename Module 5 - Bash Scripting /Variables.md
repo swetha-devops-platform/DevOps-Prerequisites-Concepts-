@@ -50,7 +50,7 @@ Variable Types in Bash - Even though Bash has no strict data types, we use them 
 
               name="Swetha"
 
-6. Environment Variables - Predefined system variables.
+6. Environment or System Variables - Predefined system variables.
 
 Example:
 
@@ -59,6 +59,9 @@ Example:
             echo $PATH - Executable search path
             echo $PWD  - Present working directory
             echo $SHELL - Current shell
+            echo $RANDOM - It gives any random Numbers
+            echo &SECONDS - The number of seconds the Scripts Started 
+            echo &LINENO - Returns the current line number in bash scripts
             
 
 7. Exporting Variables - If you want a variable available to child processes:
@@ -95,7 +98,8 @@ If name is empty → prints DefaultName.
           echo $sum
 
 
-Special Variables (Very Important for DevOps 🔥)
+CommandLine Arugments (Very Important for DevOps 🔥) - Command line arguments are values passed to a script when executing it.
+      
 
             Variable	      Meaning
 
@@ -107,11 +111,13 @@ Special Variables (Very Important for DevOps 🔥)
 
              $#	              Number of arguments
 
-             $@	              All arguments
+             $@	              All arguments( individually ) 
 
              $?	              Last command exit status
 
              $$	              Process ID
+
+             $*               All arguments (as single string)
 
 Example:
 
