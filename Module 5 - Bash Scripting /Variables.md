@@ -151,9 +151,9 @@ Inside script:
 
     Types of Quotes - Double Quotes & Single Quotes 
 
-    Double Quotes 
+Double Quotes 
 
-    What it does:
+What it does:
 
            Allows variable expansion
  
@@ -164,7 +164,7 @@ Inside script:
 <img width="690" height="69" alt="image" src="https://github.com/user-attachments/assets/6dd9916d-a55d-4909-a89c-c0215b132ace" />
 
 
-   Single Quotes 
+Single Quotes 
 
    What it does:
 
@@ -177,7 +177,7 @@ Inside script:
 <img width="586" height="107" alt="image" src="https://github.com/user-attachments/assets/acf7f48b-78f1-4874-a13f-5d2c5d35253a" />
 
 
-    To Print Special Characters we have to use an \ "Backward Slash " 
+To Print Special Characters we have to use an \ "Backward Slash " 
 
 
 <img width="1009" height="54" alt="image" src="https://github.com/user-attachments/assets/eb546f8f-4dae-4f3a-8937-63fd606ce9c4" />
