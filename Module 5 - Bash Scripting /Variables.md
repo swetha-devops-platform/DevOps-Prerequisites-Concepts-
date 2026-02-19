@@ -6,31 +6,34 @@ Variable :
 
 Declareing  a variable: 
 
-name=Swetha
-age=24
-" Important - No spaces around = "
+           name=Swetha
+           age=24
+           " Important - No spaces around = "
 
 Accessing a variable: 
 
-echo $name
-Use $ symbol to access the value.
+           echo $name
+           Use $ symbol to access the value.
 
 
 <img width="516" height="93" alt="image" src="https://github.com/user-attachments/assets/09646e70-66da-49e7-baf3-b74547caf6a8" />
 
 
-Variable Types in Bash - Even though Bash has no strict data types, we use them like this:
+Concepts in Variable 
+
+1. String Variable: - city="Chennai"
 
 
-1. String Variable:
-   
-                city="Chennai"
+<img width="455" height="100" alt="image" src="https://github.com/user-attachments/assets/6710f0f2-fda7-41d4-ac1d-e565d1afa68f" />
+
    
 
-2. Number Variable:
-   
-                   num=10
-   
+2. Number Variable: - num=10
+
+
+<img width="538" height="68" alt="image" src="https://github.com/user-attachments/assets/4d740db0-2f4a-46a5-8d36-5e624996183f" />
+
+
 
 3. Command Substitution Variable - Command substitution means storing the output of a command inside a variable. Simple Terms : Run a command and capture its output.
 
@@ -42,95 +45,52 @@ Variable Types in Bash - Even though Bash has no strict data types, we use them 
 <img width="828" height="78" alt="image" src="https://github.com/user-attachments/assets/ef942907-980c-4848-b933-e1c4202ffcf2" />
 
 
-        2.Old: `command` - ` this is not an Single quote. it is an battish
+        2. Old: `command` - ` this is not an Single quote. it is an battish
 
 
 <img width="678" height="175" alt="image" src="https://github.com/user-attachments/assets/c4faf138-8d6a-43f1-a8dc-6e6c2542971e" />
 
 
 
-5. Local Variables: Inside function only.
+4. Exporting Variables - 
 
-               function greet() {
-               local name="Swetha"
-               echo $name
-                            }
-   
+            By default, a variable created in Bash is local to that shell session. If you want the variable to be available to: Child processes, Sub-shells Other scripts - You must export it. export converts a shell variable into an environment variable.
 
-6. Global Variable - Accessible everywhere.
-
-              name="Swetha"
-
-7. Environment or System Variables - Predefined system variables.
-
-Example:
-
-            echo $HOME - User home directory
-            echo $USER - Current user
-            echo $PATH - Executable search path
-            echo $PWD  - Present working directory
-            echo $SHELL - Current shell
-            echo $RANDOM - It gives any random Numbers
-            echo &SECONDS - The number of seconds the Scripts Started 
-            echo &LINENO - Returns the current line number in bash scripts
+            For Every User - /etc/profile - Give the exported Variables in basharc
             
-
-7. Exporting Variables - By default, a variable created in Bash is local to that shell session. If you want the variable to be available to: Child processes, Sub-shells Other scripts - You must export it.
+            For Praticular User - Give the Exported Variable in Basharc for the particular User
 
             Syntax : export VariableName=Value
 
-   There are two types of variables:
+There are two types of variables:
 
             Shell variable → Only available in current shell
    
             Environment variable → Available to child processes
 
-export converts a shell variable into an environment variable.
+                    echo $HOME - User home directory
+                    echo $USER - Current user
+                    echo $PATH - Executable search path
+                    echo $PWD  - Present working directory
+                    echo $SHELL - Current shell
+                    echo $RANDOM - It gives any random Numbers
+                    echo &SECONDS - The number of seconds the Scripts Started 
+                    echo &LINENO - Returns the current line number in bash scripts
+
 
 How to Check Exported Variables: 
           
-            env or printenv - These commands show only exported (environment) variables.
+             env or printenv - These commands show only exported (environment) variables.
 
 
-Export Variables are Permantely saved in Root Directory hidden Files 
+Export Variables are Permantely saved in Root Directory hidden Files in the basharch files we should type our exported variables 
 
 
 <img width="1295" height="117" alt="image" src="https://github.com/user-attachments/assets/8905d11e-6720-449c-a521-0e789b836e67" />
 
 
 
-
-9. read Input from User
-   
-            read name
-            echo "Hello $name"
-
-With message:
-           read -p "Enter your name: " name
-           
-
-9. Default Values in Variables
-    
-           echo ${name:-"DefaultName"}
-If name is empty → prints DefaultName.
-
-
-
-10. Constant Variable (Readonly)
-    
-          readonly company="TCS"
-          Cannot change later.
-
-
-11. Arithmetic with Variables
-    
-          a=10
-          b=5
-          sum=$((a+b))
-          echo $sum
-
-
-CommandLine Arugments (Very Important for DevOps 🔥) - Command line arguments are values passed to a script when executing it.
+5. CommandLine Arugments (Very Important for DevOps 🔥) - Command line arguments are values passed to a script when executing it.
       
 
             Variable	      Meaning
@@ -160,16 +120,17 @@ Inside script:
             echo $1   # Swetha
             echo $2   # DevOps
 
-Quotes  - Quotes are used to control how Bash reads text.
+            
 
+6. Quotes  - Quotes are used to control how Bash reads text.
 
-Bash normally:
+            Bash normally:
 
-            Splits words by space
+                 Splits words by space
 
-            Expands variables
+                 Expands variables
 
-            Executes special characters
+                Executes special characters
 
 Quotes tell Bash:
 
@@ -178,7 +139,7 @@ Quotes tell Bash:
 
 Bash does 3 main things automatically:
 
-           Variable expansion → $name
+          Variable expansion → $name
 
           Command execution → $(date)
 
@@ -189,7 +150,6 @@ Quotes control these behaviors.
 
 
 Types of Quotes - Double Quotes & Single Quotes 
-
 
 Double Quotes 
 
@@ -223,7 +183,6 @@ To Print Special Characters we have to use an \ "Backward Slash "
 <img width="1009" height="54" alt="image" src="https://github.com/user-attachments/assets/eb546f8f-4dae-4f3a-8937-63fd606ce9c4" />
 
 
-Command Substitution: 
 
 
 
