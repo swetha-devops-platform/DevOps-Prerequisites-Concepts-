@@ -19,48 +19,51 @@ Use $ symbol to access the value.
 <img width="516" height="93" alt="image" src="https://github.com/user-attachments/assets/09646e70-66da-49e7-baf3-b74547caf6a8" />
 
 
-Variable Types in Bash
+Variable Types in Bash - Even though Bash has no strict data types, we use them like this:
 
-Even though Bash has no strict data types, we use them like this:
 
-1. String Variable
+1. String Variable:
    
-city="Chennai"
-
-3. Number Variable
+                city="Chennai"
    
-num=10
+
+2. Number Variable:
+   
+                   num=10
+   
 
 3. Command Substitution Variable - Stores output of a command.
 
-current_user=$(whoami)
+                   current_user=$(whoami)
+                   today=$(date)
 
-today=$(date)
 
 4. Local Variables: Inside function only.
 
-function greet() {
-    local name="Swetha"
-    echo $name
-}
+               function greet() {
+               local name="Swetha"
+               echo $name
+                            }
+   
 
 5. Global Variable - Accessible everywhere.
 
-name="Swetha"
+              name="Swetha"
 
 6. Environment Variables - Predefined system variables.
 
 Example:
 
-echo $HOME - User home directory
-echo $USER - Current user
-echo $PATH - Executable search path
-echo $PWD  - Present working directory
-echo $SHELL - Current shell
+            echo $HOME - User home directory
+            echo $USER - Current user
+            echo $PATH - Executable search path
+            echo $PWD  - Present working directory
+            echo $SHELL - Current shell
+            
 
 7. Exporting Variables - If you want a variable available to child processes:
 
-export project=DevOps
+           export project=DevOps
 
 8. read Input from User
    
@@ -69,16 +72,20 @@ export project=DevOps
 
 With message:
            read -p "Enter your name: " name
+           
 
 9. Default Values in Variables
     
-echo ${name:-"DefaultName"}
+           echo ${name:-"DefaultName"}
 If name is empty → prints DefaultName.
+
+
 
 10. Constant Variable (Readonly)
     
-readonly company="TCS"
-Cannot change later.
+          readonly company="TCS"
+          Cannot change later.
+
 
 11. Arithmetic with Variables
     
@@ -90,27 +97,27 @@ Cannot change later.
 
 Special Variables (Very Important for DevOps 🔥)
 
-Variable	      Meaning
+            Variable	      Meaning
 
-$0	              Script name
+             $0	              Script name
 
-$1	              First argument
+             $1	              First argument
 
-$2	              Second argument
+             $2	              Second argument
 
-$#	              Number of arguments
+             $#	              Number of arguments
 
-$@	              All arguments
+             $@	              All arguments
 
-$?	              Last command exit status
+             $?	              Last command exit status
 
-$$	              Process ID
+             $$	              Process ID
 
 Example:
 
-./script.sh Swetha DevOps
+            ./script.sh Swetha DevOps
 
 Inside script:
 
-echo $1   # Swetha
-echo $2   # DevOps
+            echo $1   # Swetha
+            echo $2   # DevOps
