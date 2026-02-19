@@ -1,0 +1,194 @@
+Protocol 
+A set of rules that devices follow to communicate.
+Just like: Humans follow grammar rules to speak.
+           Computers follow protocol rules to send/receive data.
+Without protocols → communication fails 
+
+Why Protocols Are Important 
+       Protocols define:
+             How data is formatted
+             How data is transmitted
+             How errors are handled
+             How security is maintained
+             How connection is established & closed
+
+Protocol Layers (Important Concept): Protocols work in layers.
+
+OSI Model (7 Layers)
+Layer	        What Happens	         Example               Protocol
+7             Application	           User interaction	     HTTP, FTP, SSH
+6             Presentation	         Encryption	           TLS/SSL
+5             Session	               Session control	     NetBIOS
+4             Transport	             End-to-end delivery	 TCP, UDP
+3             Network	               Routing	             IP
+2             Data Link            	 MAC address	         ARP
+1             Physical	             Cables, signals	     Ethernet
+
+Networking Protocols : 
+
+1. IP – Internet Protocol - IP is responsible for logical addressing and routing, but it is unreliable and connectionless.
+        Layer: Network Layer
+        Purpose: Provides logical addressing for devices.
+   What it does: Assigns unique IP address
+                 Routes packets between networks
+                 Does NOT guarantee delivery
+   Types: IPv4 and IPv6
+          IP only delivers packet — it doesn’t guarantee delivery.
+
+
+2. TCP – Transmission Control Protocol - TCP is connection-oriented and guarantees reliable delivery of data.
+         Layer: Transport Layer
+         Purpose : Port-based communication
+         What it does: Reliable data transfer
+                       Ensures packet order
+                       Error detection & retransmission
+         Uses 3-way handshake
+         Used in: HTTP, HTTPS, SSH, FTP
+
+3. UDP – User Datagram Protocol -UDP is connectionless and faster but does not guarantee reliability.
+         Layer: Transport Layer
+         What it does:Fast transmission
+                      No delivery guarantee
+                      No order checking
+        Used in: Video streaming, Online gaming, DNS queries
+
+4. HTTP – HyperText Transfer Protocol - HTTP is a stateless application layer protocol used for web communication.
+          Port: 80
+          Layer: Application Layer
+          What it does:Transfers web pages
+                       Stateless protocol
+
+5. HTTPS – Secure HTTP - HTTPS ensures secure communication using SSL/TLS encryption.
+           Port: 443
+           HTTP + SSL/TLS encryption
+           What it does: Encrypts web traffic
+                         Secure data transfer
+
+6. DNS – Domain Name System - DNS resolves human-readable domain names into IP addresses.
+         Port: 53 (Mostly UDP)
+         What it does: Converts domain name → IP address
+                       Example: google.com → 142.x.x.x
+
+7. SSH – Secure Shell - DNS resolves human-readable domain names into IP addresses.
+         Port: 22
+         What it does:Secure remote login
+                      Encrypted communication
+         Used in: Server management, Git, DevOps automation
+
+8. FTP – File Transfer Protocol - FTP is used for file transfer but is insecure unless secured with SFTP/FTPS.
+         Port: 21
+         What it does: Transfers files between systems
+                       Not encrypted by default
+        Secure versions: SFTP, FTPS
+
+9. SMTP – Simple Mail Transfer Protocol - SMTP is an application layer protocol used to send emails over a network.
+          Port: 25
+          What it does: Sends emails between servers
+
+10. ARP – Address Resolution Protocol - ARP resolves IP addresses to physical MAC addresses in a LAN.
+          Port: 0
+          What it does: Converts IP address → MAC address, Works inside local network
+
+TCP vs UDP (Very Important)
+          TCP	                 UDP
+          Reliable	           Unreliable
+          Slower	             Faster
+          Connection-oriented	 Connectionless
+          Used in banking	     Used in streaming
+
+Most Important Ports (DEVOPS POV)
+           Protocol	       Port
+           HTTP	           80
+           HTTPS	           443
+           SSH	             22
+           FTP	             21
+           DNS 	           53
+           SMTP	           25
+
+Real Life Example
+When you open: https://google.com
+          Your system uses multiple protocols:
+          DNS → To find IP address
+          TCP → To establish connection
+          TLS → To encrypt connection
+          HTTP → To request webpage
+One website → multiple protocols working together.
+
+SNMP & TELNET Concepts: 
+SNMP: Simple Network Management Protocol
+      SNMP is a protocol used to monitor and manage network devices like routers, switches, servers, and printers.
+      Port Number : UDP 161 → SNMP requests
+                    UDP 162 → SNMP traps (alerts)
+      SNMP uses UDP, not TCP.
+
+Why SNMP is Used - In real networks, administrators need to monitor: CPU usage,Memory usage, Network traffic, Device status, Interface statistics
+                   SNMP helps collect this information.
+
+SNMP Components:
+1.SNMP Manager - Monitoring system (like Nagios, Zabbix).
+2.SNMP Agent - Software running on device.
+3.MIB (Management Information Base) - Database of manageable parameters.
+
+How SNMP Works: 
+       Manager sends request to device (UDP 161).
+       Device agent responds with data.
+       If issue occurs → Device sends trap (UDP 162).
+
+SNMP Versions: 
+         Version	         Security
+         SNMPv1	           No security
+         SNMPv2	           Basic improvements
+         SNMPv3	           Secure (authentication + encryption) - In production → SNMPv3 preferred.
+
+Telnet - Telnet is a protocol used to remotely access another computer over a network.
+         Port Number : TCP 23
+        Problem with Telnet : - Not secure, Data sent in plain text, Password visible
+        What Replaced Telnet - SSH (Secure Shell)
+
+Port 
+A Port is a logical communication endpoint in a device.
+Simple meaning:
+         IP address = Building address
+         Port number = Room number inside building
+Example: 192.168.1.10 : 22
+         192.168.1.10 → Computer
+         22 → SSH service inside that computer
+
+Why Ports Are Needed?
+One computer can run multiple services:
+       Web server
+       Database
+       SSH
+       FTP
+       Email
+If ports don’t exist, how will system know
+       Web request goes to web server?
+       SSH request goes to SSH service?
+Ports solve this problem.
+
+Where Ports Work - Ports work at: Transport Layer (Layer 4)
+Only protocols that use:
+      TCP
+      UDP
+Have ports.
+
+Port Number Range - Ports are 16-bit numbers.
+Range: 0 – 65535
+
+Port Categories (Very Important )
+1. Well-Known Ports (0–1023)
+                   Protocol	        Port
+                   HTTP	            80
+                   HTTPS 	          443
+                   SSH	            22
+                   FTP	            21
+                   DNS	            53
+                   SMTP	            25
+
+2. Registered Ports (1024–49151) - Used by applications.
+                                   Example: MySQL → 3306, PostgreSQL → 5432
+
+3. Dynamic / Ephemeral Ports (49152–65535) - Used temporarily by client systems.
+                                             Example: When you open google.com:
+                                                      Your laptop may use port 50321
+                                                      Server uses port 443 
