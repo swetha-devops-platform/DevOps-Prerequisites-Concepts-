@@ -13,10 +13,10 @@ Basic Syntax
 1. If Statement :
    
 
-      if [ condition ]
-      then
+         if [ condition ]
+         then
             commands
-      fi
+         fi
    
 
 Important:
@@ -29,12 +29,12 @@ Important:
 2. If-Else Statement:
    
 
-      if [ condition ]
-      then
+        if [ condition ]
+        then
           commands_if_true
-      else
+        else
           commands_if_false
-      fi
+        fi
    
 
 
