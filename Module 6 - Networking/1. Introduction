@@ -20,3 +20,18 @@ As a DevOps Engineer :
       Debug connection issues
 
 If networking is weak → you cannot debug production issues.
+
+Basic Concepts: 
+IP Address - Every device in network needs an identity.
+             IP address = Unique number for each device.
+             Example: 192.168.1.10
+Like: Your house has address, Your computer has IP address
+
+Types of IP
+
+Type	         Example	           Usage
+Private IP	   192.168.x.x	       Inside home/office
+Public IP	     Given by ISP	       Internet access
+
+Internet - Internet = Network of networks, Millions of networks connected together.
+
