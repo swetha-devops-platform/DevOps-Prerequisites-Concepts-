@@ -35,7 +35,31 @@ Change the Hostname for the Machine by using the below mentioned commands
 
 <img width="601" height="152" alt="image" src="https://github.com/user-attachments/assets/af646f0c-c926-4bba-adb2-f74049982468" />
 
-Step 4: Wrtiting the bash scripts for the VM1(SCRIPTBOX),Switch into rootuser 
+
+Step 4: Wrtiting the bash scripts for the VM1(SCRIPTBOX),Switch into rootuser, Create an Opt Dirctorty to save our Scripts 
+
+
+<img width="497" height="75" alt="image" src="https://github.com/user-attachments/assets/9c184985-c737-492c-a712-8053c0cd0446" />
+
+
+Below mentioned one is my 1st Scripts to be exceute for the VM1. 
+
+
+<img width="779" height="375" alt="image" src="https://github.com/user-attachments/assets/8924af5e-f16b-4920-b063-b5e5cfe11795" />
+
+
+<img width="540" height="40" alt="image" src="https://github.com/user-attachments/assets/3cf8c0f2-206b-4108-8b70-8fec664e40f9" />
+
+
+This Command is used for the giving the execute permission 
+
+
+After saving this scripts have to run this command " ./firstscripts.sh " - .sh is not mandatory
+
+
+<img width="902" height="568" alt="image" src="https://github.com/user-attachments/assets/c14fb35d-a850-4205-8900-9b7bc6b23291" />
+
+
 
 
 
