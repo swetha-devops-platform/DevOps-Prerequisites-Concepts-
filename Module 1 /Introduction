@@ -8,19 +8,16 @@ Course Outline :
    This Course will be covering Four Major basic area, 
                General Infra basic - Linux, Virutal Machine, Networking.
                Cloud Computing Basics.
-               Scripting.
-               Docker and Containers. 
+               Scripting
 
 Concepts Covered in this Course: 
-      Virtulazation.
+      Virtulazation and Vagrant Automation Tool 
       Linux
-      Vagrant
       Bash Scripting
       Networking Fundamentals
       Cloud Computing with AWS
       Git
       Maven
       Python
-      Docker 
 
                   
