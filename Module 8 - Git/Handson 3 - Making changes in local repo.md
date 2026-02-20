@@ -36,5 +36,27 @@ Handson 3 - Making changes in local  repository files and pushing into an remote
 <img width="1502" height="294" alt="image" src="https://github.com/user-attachments/assets/ad7ddc8b-fb11-4a33-8060-7f93ede275ae" />
 
 
+6. Making changes in our github repositories and pull into our local repositories
+
+<img width="1492" height="269" alt="image" src="https://github.com/user-attachments/assets/f00c92b6-b435-4c27-87f3-6544106a5195" />
+
+In Local Repositories 
+
+<img width="794" height="306" alt="image" src="https://github.com/user-attachments/assets/09a288a0-19b8-4aea-a25b-91d5fc0bcfbd" />
+
+<img width="851" height="464" alt="image" src="https://github.com/user-attachments/assets/fdbf2e81-0133-444e-8ad5-99ca2f66b0bb" />
+
+
+Extra Tips: 
+
+We can see the contents of the file by using an " git log "or " git log --oneline " and " git show id " 
+
+
+<img width="860" height="442" alt="image" src="https://github.com/user-attachments/assets/995fd6f2-e947-457a-b546-2dc03a1baf08" />
+
+
+
+
+
 
 
