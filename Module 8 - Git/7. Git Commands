@@ -1,0 +1,105 @@
+Git Commands (Basic → Advanced) in Table Format
+
+Basic Commands
+
+| Command               | Purpose                         |
+| --------------------- | ------------------------------- |
+| `git init`            | Initialize a new repository     |
+| `git clone <url>`     | Copy remote repository to local |
+| `git status`          | Show current file status        |
+| `git add <file>`      | Add file to staging area        |
+| `git add .`           | Add all files to staging        |
+| `git commit -m "msg"` | Save changes with message       |
+| `git log`             | Show commit history             |
+| `git log --oneline`   | Compact commit history          |
+| `git diff`            | Show changes between versions   |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Branching & Merging
+
+| Command                  | Purpose                          |
+| ------------------------ | -------------------------------- |
+| `git branch`             | List branches                    |
+| `git branch <name>`      | Create new branch                |
+| `git checkout <branch>`  | Switch branch                    |
+| `git checkout -b <name>` | Create and switch branch         |
+| `git switch <branch>`    | Switch branch (modern)           |
+| `git merge <branch>`     | Merge branch into current branch |
+| `git branch -d <name>`   | Delete branch                    |
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Remote Repository Commands
+
+(Example platform: GitHub)
+
+| Command                       | Purpose                     |
+| ----------------------------- | --------------------------- |
+| `git remote add origin <url>` | Add remote repository       |
+| `git remote -v`               | View remote URLs            |
+| `git push origin main`        | Push code to remote         |
+| `git pull origin main`        | Pull changes from remote    |
+| `git fetch`                   | Download changes (no merge) |
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Undo / Rollback Commands
+
+| Command                    | Purpose                                |
+| -------------------------- | -------------------------------------- |
+| `git restore <file>`       | Discard changes in file                |
+| `git reset --soft HEAD~1`  | Undo commit (keep staged changes)      |
+| `git reset --mixed HEAD~1` | Undo commit (unstage changes)          |
+| `git reset --hard HEAD~1`  | Remove commit & changes permanently    |
+| `git revert <commit-id>`   | Safely undo a commit                   |
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Stash Commands
+
+| Command           | Purpose                  |
+| ----------------- | ------------------------ |
+| `git stash`       | Temporarily save changes |
+| `git stash list`  | Show saved stashes       |
+| `git stash apply` | Apply latest stash       |
+| `git stash drop`  | Delete stash             |
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tagging (Release Management)
+
+| Command                    | Purpose                |
+| -------------------------- | ---------------------- |
+| `git tag v1.0`             | Create lightweight tag |
+| `git tag -a v1.0 -m "msg"` | Create annotated tag   |
+| `git push origin v1.0`     | Push tag to remote     |
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Advanced Commands
+
+| Command                       | Purpose                                  |
+| ----------------------------- | ---------------------------------------- |
+| `git rebase <branch>`         | Reapply commits on top of another branch |
+| `git rebase -i HEAD~3`        | Interactive rebase                       |
+| `git cherry-pick <commit-id>` | Apply specific commit                    |
+| `git commit --amend`          | Modify last commit                       |
+| `git clean -f`                | Remove untracked files                   |
+| `git show <commit-id>`        | Show commit details                      |
+| `git blame <file>`            | Show who modified each line              |
+| `git rm <file>`               | Remove file from repo                    |
+| `git mv old new`              | Rename file                              |
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Configuration Commands
+
+| Command                                  | Purpose            |
+| ---------------------------------------- | ------------------ |
+| `git config --global user.name "Name"`   | Set username       |
+| `git config --global user.email "email"` | Set email          |
+| `git config --list`                      | View configuration |
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
