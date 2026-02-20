@@ -1,4 +1,4 @@
-Handson 3 - Making changes in local  repository files and pushing into an remote repository 
+HANDSON 3 - MAKING CHANGES IN LOCAL & REMOTE REPOSITORY AND PERFORMING PUSH & PULL COMMAND 
 
 1. Open any file and edit them by using an Vi editor 
 
