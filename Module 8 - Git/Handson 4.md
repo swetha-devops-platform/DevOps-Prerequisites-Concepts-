@@ -41,6 +41,9 @@ Steps to be followed :
 <img width="1100" height="531" alt="image" src="https://github.com/user-attachments/assets/d74dbd47-13d6-4f35-ac6e-9d963f42d0fc" />
 
 
+<img width="1092" height="810" alt="image" src="https://github.com/user-attachments/assets/118b192f-166e-4583-88f7-01199c0c0ad6" />
+
+
 
 7. Mergeing to Main branch by using " git merge branchname "
 
@@ -49,7 +52,6 @@ Steps to be followed :
 
 
 
-<img width="1092" height="810" alt="image" src="https://github.com/user-attachments/assets/118b192f-166e-4583-88f7-01199c0c0ad6" />
 
 
 
