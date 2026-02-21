@@ -77,3 +77,5 @@ How They Work Together
 3. Daemon pulls image from Registry (if not available locally)
 4. Daemon creates and runs Container
 
+
+" We can Install docker by using an Documentation which is available in the official website " 
