@@ -1,0 +1,78 @@
+Docker [ Container Runtime Environment ] & [ " Doc + Worker " = Docker.] 
+
+Docker is a containerization platform that allows you to: Package an application,Along with its dependencies, Into a lightweight unit called a container, And run it anywhere consistently. 
+Interview Definition : Docker is an open-source containerization platform that packages applications and their dependencies into lightweight containers to ensure consistency across development, testing, and production environments.
+
+Docker History 
+
+Before Docker (Early Container Concepts)
+Containers did NOT start with Docker.
+1. 1979 – Unix Chroot
+          Unix introduced: chroot
+                           It allowed changing the root directory for a process.
+                           This was the first step toward isolation.
+
+2. 2000s – Linux Containers (LXC)
+           Linux introduced: Namespaces and Cgroups
+           These features allowed process isolation.
+           Technology used: Linux Containers (LXC), But LXC was: Complex  and Not developer-friendly
+
+3. Birth of Docker - 2013 – Docker Was Introduced
+                     Docker was created by: Solomon Hykes
+                     Under the company: Docker Inc.
+                     Originally developed as part of: dotCloud
+                     It has an bussiness of PAAS [ Platform as a Service ] 
+                   
+Why Docker Became Popular?
+
+Docker made containers:Easy to use, Portable, Developer-friendly, CLI-based, Image-based system, It simplified LXC.
+
+TimeLine of the Docker: 
+
+1979	     chroot introduced
+2008	     LXC introduced
+2013	     Docker launched
+2014	     Docker Hub
+2016	     containerd
+2017	     OCI standard
+2018+	     Kubernetes dominance
+
+Core Components of Docker Technology
+The main core components are:
+
+      1. Docker Client
+      2. Docker Daemon (Engine)
+      3. Docker Images
+      4. Docker Containers
+      5. Docker Registry
+
+1. Docker Client - Docker Client is the command-line interface (CLI) that allows users to interact with the Docker daemon by sending commands such as build, run, and pull.
+                   When you type:docker run nginx - The client sends request to Docker Daemon.
+                   It communicates using REST API.
+
+2. Docker Daemon (Docker Engine) - Docker Daemon is the background service that manages Docker objects such as Build images, runs containers, Manage networks and volumes. 
+                                   It listens for API requests from the Docker client.
+                                   Official platform: Docker
+
+3. Docker Image - A Docker Image is a read-only template that contains application code, runtime, libraries, and dependencies required to run a container. Its Built using Dockerfile
+                  Example: Ubuntu Image, Nginx Image, Python Image
+
+4. Docker Container - A Docker Container is a lightweight, isolated runtime instance of a Docker image that executes the application. Its Shares host OS
+                     Containers can:
+                             * Start
+                             * Stop
+                             * Delete
+                             * Restart
+                             
+5. Docker Registry - A Docker Registry is a centralized repository used to store and distribute Docker images. 
+                     For example, Docker Hub is a public registry.
+                     Two types: * Public Registry → Docker Hub
+                                * Private Registry (Company internal)
+
+How They Work Together
+
+1. User runs command in Docker Client
+2. Client talks to Docker Daemon
+3. Daemon pulls image from Registry (if not available locally)
+4. Daemon creates and runs Container
+
