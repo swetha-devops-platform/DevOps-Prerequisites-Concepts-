@@ -62,15 +62,15 @@ Container: A container is a lightweight unit that:
            Lightweight
 
 
-Feature	                 Virtual Machine	              Container
-OS	                     Has full Guest OS	            Shares Host OS
-Size	                   GBs	                          MBs
-Boot Time	               Minutes	                      Seconds
-Performance	             Slower	                        Near Native
-Resource Usage	         High	                          Low
+Feature	                 Virtual Machine	            Container
+OS	                  Has full Guest OS	            Shares Host OS
+Size	                  GBs	                     MBs
+Boot Time	         Minutes	                     Seconds
+Performance	         Slower	                     Near Native
+Resource Usage	         High	                     Low
 Isolation Level	         Full OS Isolation	            Process Level Isolation
-Startup Speed	           Slow	                          Fast
-Use Case	               Legacy apps,strong isolation	  Microservices, DevOps
+Startup Speed	         Slow	                     Fast
+
 
 
 Simple Analogy
