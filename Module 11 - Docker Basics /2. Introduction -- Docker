@@ -58,6 +58,7 @@ The main core components are:
                   Example: Ubuntu Image, Nginx Image, Python Image
 
 4. Docker Container - A Docker Container is a lightweight, isolated runtime instance of a Docker image that executes the application. Its Shares host OS
+                      A Docker Conatiners are run in Docker Engine
                      Containers can:
                              * Start
                              * Stop
