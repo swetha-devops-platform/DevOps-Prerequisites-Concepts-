@@ -1,0 +1,37 @@
+What is Networking?
+        Networking is the process of connecting two or more devices so they can communicate and share data.
+        Devices can be:Computers, Servers, Mobile phones, Printers, Cloud servers,Routers 
+
+Real Life Examples : 
+      Sending a WhatsApp Message
+      What happens?
+               Your phone connects to WiFi (router).
+               Router connects to ISP.
+               ISP sends data through internet.
+               It reaches WhatsApp server.
+               Server sends it to your friend.
+
+Why Networking is Important for DevOps?
+As a DevOps Engineer :
+      Deploy applications to servers
+      Connect servers in cloud (like AWS)
+      Configure VPC, Subnets
+      Use Load Balancers
+      Debug connection issues
+
+If networking is weak → you cannot debug production issues.
+
+Basic Concepts: 
+IP Address - Every device in network needs an identity.
+             IP address = Unique number for each device.
+             Example: 192.168.1.10
+Like: Your house has address, Your computer has IP address
+
+Types of IP
+
+Type	         Example	           Usage
+Private IP	   192.168.x.x	       Inside home/office
+Public IP	     Given by ISP	       Internet access
+
+Internet - Internet = Network of networks, Millions of networks connected together.
+
