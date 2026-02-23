@@ -21,7 +21,7 @@ Concepts Covered
 
 Objective: 
 -------------
-          The objective of this repository is to build a strong foundation in DevOps by mastering core infrastructure and automation concepts. 
+The objective of this repository is to build a strong foundation in DevOps by mastering core infrastructure and automation concepts. 
           
-          Through hands-on practice in Linux, Git, networking, virtualization, and scripting, I aim to develop practical system administration skills and prepare for advanced DevOps tools such as Docker, CI/CD, and Cloud platforms.
+Through hands-on practice in Linux, Git, networking, virtualization, and scripting, I aim to develop practical system administration skills and prepare for advanced DevOps tools such as Docker, CI/CD, and Cloud platforms.
     
