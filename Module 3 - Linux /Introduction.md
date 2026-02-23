@@ -1,0 +1,24 @@
+Operating System: 
+
+       Operating system is defined as an System software which acts as an interface between computer hardware and users/application.
+                                                            or 
+       It is defined as an resource managers which manages the hardware resources like cpu, ram, devices and disk and its provides an stable environment for users or application
+
+Main Functions of Operating System: 
+
+       The Main functions of operating systems are 5 
+                       Process Management 
+                       Memory management
+                       File system Management
+                       Devices Management 
+                       Disk Management 
+
+Types of Operating system: 
+
+        There are 5 Types of Operating system: 
+                   Desktop OS - [ Windows and Linux ] 
+                   Mobile OS - [ Android, iOS, Windows mobile ] 
+                   Embedded OS - [ Devices like router, smartTvs, automobile, home appliances etc ]
+                   Multitasking OS [ Aerospace, Medical Equipmemt]
+                   Server OS  - [ Windows Server, Linux - CentOS and RHEL ] 
+
