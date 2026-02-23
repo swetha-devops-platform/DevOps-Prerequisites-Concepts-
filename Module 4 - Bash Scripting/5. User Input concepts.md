@@ -1,0 +1,34 @@
+Definition: USER INPUT : 
+
+       User input means: Taking data from the keyboard while the script is running.
+       
+       In Bash, we mainly use:
+
+                  read
+
+1. Using -p (Prompt) - Instead of writing echo and  -p allows inline prompt.
+
+2. Silent Input (Password Type) - Use -s to hide input (important for DevOps), Used in login scripts, automation, CI/CD secrets.
+
+3. Timeout Input (-t) - If user doesn’t enter within 5 sec, it exits, Useful in automation scripts.  " read -t 5 -p "Enter value within 5 seconds: " value "
+
+
+My Own Scripts - Exmaple 
+
+
+<img width="728" height="372" alt="image" src="https://github.com/user-attachments/assets/327fe9c5-7183-4e7b-843d-67d2e8514077" />
+
+
+Output : 
+
+
+<img width="841" height="357" alt="image" src="https://github.com/user-attachments/assets/58836676-af8c-4e0c-b689-2715cfaa35d8" />
+
+
+But in Devops, We don't need this because user interaction will be an manual error and it is best to for an Security Purpose 
+
+
+
+
+
+
