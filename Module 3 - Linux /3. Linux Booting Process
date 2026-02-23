@@ -1,0 +1,99 @@
+Linux Booting Process 
+
+        When we press the power button, backend there will be going on process to load an operating system into memory and startup that is called as booting process. 
+
+        It Includes 6 Stages 
+
+The Booting Process stages 
+
+        1. BIOS / UEFI [ Basic Input/output system ] 
+        2. MBR/ GPT [ Master boot Record ] 
+        3. GRUB2 [ Grand Unified boot loader ] 
+        4. Kernel
+        5. systemD or Init Process 
+        6. Runlevel Programs
+
+Poweron [ Booting starts when system is powered on ] 
+
+
+1. BIOS/ UEFI Intialization: [ Performs hardware checks and looks for a boot devices ] 
+
+             When computer system is powered on, a program within the motherboard initates the POST ( Power on Self test ) to verify the functionality of essential hardware components before starting the OS 
+             This Program is known as either BIOS or UEFI [ Unified Extensible Firmware Interface ] 
+             This will Loads MBR or GPT Partition Table 
+
+
+2. MBR/ GPT: [ Contains information to laod the Bootloader & /dev/hda or /dev/sda ] 
+
+             MBR - Traditionally, BIOS Utilized the MBR partitioning scheme to manage disk partitions on Storage devices.
+                   This has certain limitations, Including - Maximum partition size of 2 terabytes and Support for upto primary paritions of four 
+
+             GPT [ GUID Partition Table ] - Modern motherhoods and frimware version have transitioned to uefi 
+                                            UEFI Capable of booting fro GPT Formatted disks
+                                            UEFI can work with both GPT & MBR Partitioned disk
+             Both will verify the hardware components and carry out tests to ensure that computer is in proper condition
+             if test - error - shows error message in screen
+             Finally if system passes the POST and it will loads the bootloader into memory 
+             Loads GRUB2 Bootloader into memory 
+
+Important Concept 1 : 
+
+Boot Loader: 
+
+            Small programs resposnible for loading operating system 
+            Primary function : Load Kernel on disk, Insert to memory, Initates its exceution with Specified Options.
+            Popular bootloader in Linux : LILO[Linux Loader] - It is discontiuned due to its lack of support for multi boot environments & UEFI
+                                          GRUB Legacy - Supports multi boot operating system both in text and graphical user interface. 
+
+
+3. GRUB2 [ Loads Linux kernel into memory and allow useres to select OS & /boot/grub/grub.config ] 
+
+            Updated Version of GRUB and it is the default one for many modern linux distributions
+            In Bootprocess, GRUB2 takes control after the BIOS Loads itself, inserts the linux kernel and intiramfs into memory and then hands over control to the kernel initating the boot process.
+
+4. Kernel: [ It manages and intialize hardware resources and starts system Process ] 
+
+The Kernel Follows a predefined procedure which generally includes,
+
+             Decompressing itself in memory
+             Performimg hardware initiliazation
+             Gaining access to essential peripheral hardware
+             extarcting intiramfs into memory finally kernel intitates the init ( SystemD ) process
+
+Important Concept 2 : 
+
+Intiramfs [ IntialRam Filesystem ]: 
+
+              It Contains essentail modules and drives nesccessary for activities such as mounting the root file system and handling complex storage configuration like LVM[ Loacl Volume Manager] and software raid during bootprocess
+
+
+5. SystemD or Inti Process: 
+
+               After Intitating the inti process the kernel starts parent process and it is called as systemd in modern 
+               It is first process that starts system services like network and SSH 
+               Tasks performed by systemD : Initiating remaining hardware
+                                            Mounting filesystem 
+                                            Initiating and terminating services
+                                            managing essential system process anf including user logins
+                                            Running desktop environment 
+
+
+6. Run Level Programs : 
+
+ It is also said to be an System Target Now 
+
+               RunLevels          SystemD Target             Location              Descriptions
+               0                  Poweroff. target           /etc/rc0.d/           Poweroff system
+               1                  rescue target              /etc/rc1.d/           Single user mode for maintance and repair 
+               2,3,4              multi user target          /etc/rc2,rc3,rc4.d/   Multiuser, Full multiuser mode and user definable in systeminit 
+               5                  Graphical target           /etc/rc5.d/           GU1 With Networking
+               6                  Reboot target              /etc/rc6.d/           Reboot the system 
+
+Login Prompt [ System is now ready for user Interaction ] 
+
+            
+
+              
+               
+
+            
