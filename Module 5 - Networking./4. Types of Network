@@ -1,0 +1,77 @@
+TYPES OF NETWORK BASED ON GEOGRAHICAL COVERAGE: 
+Networks based on geographical coverage are classified into 4 Types 
+       LAN - Local Area Network
+       WAN - Wide Area Network 
+       PAN  Personal Area Network 
+       MAN - Metropolitian Area Network 
+
+1. LAN – Local Area Network - A Local Area Network (LAN) connects devices within a limited geographic area such as a home, office, or campus and its Speed: High speed (100 Mbps – 10 Gbps)
+                              Examples:Office network, College lab network, Home Wi-Fi
+                              Devices Used: Switch, Router, Ethernet cables.
+
+2. WAN – Wide Area Network - A Wide Area Network (WAN) connects networks across large geographic areas like countries or continents.
+                             Example: The Internet, Corporate networks across countries
+                             Technologies: MPLS, Satellite, Leased lines.
+
+3. PAN – Personal Area Network - A Personal Area Network (PAN) is a small network used for communication between personal devices within a short range (1–10 meters).
+                                 Examples:Bluetooth devices, Mobile hotspot, Smartwatch connected to phone
+                                 Technologies Used: Bluetooth, Infrared, USB
+
+4. MAN – Metropolitan Area Network - A Metropolitan Area Network (MAN) covers a city or large campus area.
+                                     Example: Internet service provider network across a city, Government city-wide network
+                                     Technology: Fiber optic cables
+
+5.CAN - Campus Area Network - A Campus Area Network (CAN) is a network that connects multiple buildings within a limited geographical area like:College campus, University
+                            Corporate office campus, Hospital campus
+                            It is bigger than a LAN but smaller than a MAN.
+
+
+TYPES OF NETWORK BASED ON CLOUD COMPUTING : 
+Cloud Networking - Cloud networking refers to the configuration and management of network resources such as VPCs, subnets, route tables, gateways, and security controls inside a cloud environment like AWS.
+                   It enables secure communication between: Cloud resources, Users and cloud, On-premise and cloud
+
+Types of Networking in Cloud Computing: 
+
+1. Public Cloud Networking - Public networking allows resources to communicate directly with the internet.
+                             Key Components: Public Subnet, Internet Gateway (IGW), Public IP
+                             Example: Hosting a website on EC2 accessible worldwide.
+
+2. Private Cloud Networking - Private networking isolates resources from direct internet access.
+                              Key Components: Private Subnet, NAT Gateway, No Public IP
+                              Example: Database servers.
+
+3. Hybrid Cloud Networking - Hybrid cloud networking connects on-premise infrastructure with cloud infrastructure.
+                             Connectivity Methods: Site-to-Site VPN, Direct Connect
+
+4. Multi-Cloud Networking - Using multiple cloud providers connected via secure networking. 
+                            Multi-cloud networking enables connectivity between different cloud providers using VPN, peering, or third-party networking tools.
+                            Example: AWS for compute, Azure for backup.
+
+Important Cloud Networking Concepts (Very Important for DevOps)
+
+1.VPC (Virtual Private Cloud) - A VPC is a logically isolated virtual network inside AWS where we launch resources.
+                                Inside VPC:
+                                       Subnets
+                                       Route Tables 
+                                       CIDR Block( 10.0.0.0/16 ) This defines: IP range of your VPC and Total number of IP addresses
+                                       Security Groups - Security Groups are stateful firewalls attached to instances level. 
+                                       NACL - NACLs are stateless firewalls applied at the subnet level
+                                       Internet Gateway - An Internet Gateway allows communication between VPC and the internet.Used in: Public Subnets
+                                       NAT Gateway - NAT Gateway allows private instances to access the internet without exposing them to incoming traffic. Used in: Private Subnets
+
+2. VPN ( Virtual Private Network ) - A VPN is a secure connection established over a public network (like the internet) to privately connect two networks or a user to a private network using encryption.
+                                     In simple words: VPN creates a secure encrypted tunnel over the internet.
+                                     Exmaple : You are working from home and want to access your TCS internal server.
+                                               You: Connect to internet
+                                                    Start VPN client
+                                                    VPN creates encrypted tunnel
+                                                    Now your system behaves as if you are inside office network
+                                             That secure tunnel = VPN
+
+
+
+
+
+
+
+

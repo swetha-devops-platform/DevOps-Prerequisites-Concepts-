@@ -1,0 +1,57 @@
+1. IP & Interface Command
+
+              Command	          Purpose	              
+              ip addr	          Show IP address & interface details	
+              ifconfig	        Show IP (old command)	
+              ip link	          Show network interfaces status	
+              hostname -I	      Show system IP only	hostname
+
+2. Connectivity Commands
+
+             Command	          Purpose	
+             ping	              Check host connectivity	
+             traceroute	        Show path to destination	
+             tracepath          Similar to traceroute	
+             
+3. DNS Commands
+
+             Command	          Purpose	
+             nslookup	          Domain → IP resolution	
+             dig	              Detailed DNS 
+             host	              Quick DNS lookup	
+             
+4. Port Checking Commands
+
+             Command	          Purpose	
+             ss -tuln	          Show open TCP/UDP ports	
+             netstat -tuln	    Show open ports (old)	
+             lsof -i	          Show processes using ports	
+             nc -zv	            Test port connectivity	
+             telnet	            Test remote port	
+             
+5. Routing Commands
+
+             Command	          Purpose	
+             ip route	          Show routing table
+             route -n	          Show routing table (old)	
+             
+6. Remote Access Commands
+
+              Command	           Purpose	
+              ssh	               Secure remote login	
+              scp	               Copy file remotely	
+              sftp	             Secure file transfer	
+              
+7. Network Monitoring Commands
+
+              Command	           Purpose
+              top	               Monitor CPU & processes	
+              nload	             Monitor bandwidth
+              iftop	             Live network usage
+              tcpdump	           Capture packets	
+              
+8. Public IP & External Check
+
+              Command	             Purpose
+              curl ifconfig.me 	    Show public IP	
+              wget ifconfig.me	    Alternative public IP 

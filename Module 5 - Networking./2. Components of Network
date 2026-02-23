@@ -1,0 +1,40 @@
+COMPONENTS OF NETWORK: 
+To build a simple network we need, 
+     1. End Devices ( Computers, laptop, mobiles, server, cloud servers ) 
+     2. NIC - Network Interface Card
+     3. Transmission Media ( Wired or wireless) 
+     4. Intermidate Devices ( Router, Switc, Firewall, Access point, Modem ) 
+     5. IP Addressing 
+     6. Networking Protocols 
+
+S.No	      Component	                           Description	                                Example	                                       Why It Is Needed
+1	         End Devices	                    Devices that send/receive data	            Laptop, Desktop, Server, Printer	             At least 2 devices are required to form a network
+2	         Network Interface Card (NIC)	     Hardware that connects device to network	  Ethernet port, WiFi adapter	                  Provides MAC address and enables communication
+3	         Transmission Media	               Medium through which data travels	            Ethernet cable, Fiber optic, WiFi	        Carries data between devices
+4	         Switch	                         Connects devices within same network	       8-port switch	                            Enables internal communication in LAN
+5	         Router	                         Connects different networks	                 Home WiFi router	                            Connects LAN to Internet
+6	         Modem	                              Connects network to ISP	                      Broadband modem	                            Converts ISP signal for router
+7	         IP Addressing	                    Logical addressing system	                 192.168.1.10	                                 Identifies devices uniquely
+8	         Network Protocols	               Rules for communication	                      TCP/IP, HTTP, DNS	                            Ensures proper data transfer
+
+Intermediate Devices: 
+1. SWITCH: - A switch connects multiple devices inside the same network (LAN).
+             Example: All computers inside your office connected to one switch.
+             Technical Explanation - A switch is a Layer 2 networking device used to connect multiple devices within the same local area network. 
+                                     It forwards data based on MAC addresses and reduces unnecessary traffic by sending data only to the intended device.
+
+2. ROUTER: - A router connects different networks together.
+             Example: Your home network ↔ Internet.
+             Technical Explanation - A router works at Layer 3 (Network Layer) and uses IP addresses to forward packets between networks.
+                                     A router is a Layer 3 device that connects different networks and forwards packets based on IP addresses. 
+                                     It enables communication between internal networks and external networks such as the internet.
+
+3. FIREWALL: - A firewall protects the network by blocking unauthorized traffic.
+               In Cloud: AWS Security Group = Virtual Firewall & Network ACL = Network-level firewall
+               Technical Explanation - A firewall monitors and filters incoming and outgoing traffic based on predefined security rules.
+                                       A firewall is a network security device that monitors and controls incoming and outgoing traffic based on security rules. 
+                                       It protects the network from unauthorized access and cyber threats.
+
+4. MODEM - A modem connects your network to the ISP.
+           Technical Explanation - Modem stands for Modulator-Demodulator. It converts digital signals from your computer into analog signals for transmission and vice versa.
+                                   A modem is a device that connects a local network to an Internet Service Provider by converting digital data into signals suitable for transmission and vice versa.
