@@ -1,0 +1,84 @@
+Linux - Introduction 
+
+       Linux is the open source Operating system that manages the hardware resources efficiently, especially on server and cloud platforms & provides stable platform for users/ Application.
+       It's developed by " Linux Torvalds in 1990 " 
+       Its Very Popular for its stability, security and flexibility. 
+
+
+Why Linux ? 
+
+       Its open source which means { Software with source code is freely available, anyone can inspect, modify and make an changes } 
+       3S - Stable, Secure and Safe 
+       Automation Friendly, community support and customization
+       Lightweight 
+       Strong CLI [Command Line Interface ] - Due to this, it is faster processing and enchaned Security
+
+
+History of Linux: 
+
+
+1. Before Linux – The UNIX Era (1969–1980s)
+
+                   In 1969, Ken Thompson and Dennis Ritchie created UNIX at Bell Labs.
+
+                   UNIX became powerful, stable, and widely used in universities and enterprises.
+
+                   Later, UNIX became commercial and expensive.
+
+                   Because of licensing restrictions, students and developers couldn’t freely modify it.
+
+                   This created a need for a free alternative.
+
+2. GNU Project – The Free Software Movement (1983)
+
+
+                   In 1983, Richard Stallman started the GNU Project.
+
+                   Goal: Create a completely free UNIX-like operating system.
+
+                   He also founded the Free Software Foundation.
+
+                   They built: GCC (compiler), Bash (shell), Libraries & tools
+
+                   But they were missing one important thing: the kernel.
+   
+
+3. Birth of Linux (1991)
+
+                   In 1991, a Finnish student named Linus Torvalds started writing his own kernel.
+
+                   He announced it on a Usenet group.
+
+                   Version Linux 0.01 was released in September 1991.
+
+                   It was inspired by MINIX (a small UNIX-like system).
+
+                   When Linux kernel + GNU tools were combined → GNU/Linux was born.
+   
+
+4. Growth of Linux (1990s–2000s)
+
+                  Major milestones: 1993 – Debian released.
+
+                                    1994 – Linux 1.0 released.
+
+                                    1995–2000 – Red Hat made Linux enterprise-ready.
+
+                                    2004 – Ubuntu launched, making Linux beginner-friendly.
+
+                  Linux started dominating: Servers, Supercomputers, Networking devices
+   
+
+5. Linux Today (2010–Present)
+
+                 Today Linux powers: Android (most smartphones in the world)
+
+                                     Cloud platforms (AWS, Azure, GCP)
+
+                                     servers worldwide
+
+                                     All top supercomputers
+
+                                     DevOps tools like Docker & Kubernetes
+
+
