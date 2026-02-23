@@ -81,4 +81,33 @@ History of Linux:
 
                                      DevOps tools like Docker & Kubernetes
 
+Difference Between Unix and Linux Operating system: 
+
+                  Unix is the Proprietary, stable OS mainly used for enterprise environments.
+                  Linux is an Open source OS or Unix Like OS that offers flexbility, cost efficiency and strong community support. Due to this linux is widely used in Colud and devops Platforms. 
+
+In Simple Format : 
+
+                  Feature               Linux                     Unix 
+                  Source code           Opensource                proprietory
+                  Cost                  Free                      Paid 
+                  Development           Commnuity Driven          Vendor Controlled
+                  Securtity             High                      Low 
+                  Cloud Support         Yes Fully                 Limited 
+                  Automation            Strong                    weak
+                  Containers            Native Support            Rare 
+                  DevOps Tools          Designed for Linux        no 
+
+Why Linux Replace Unix ? 
+
+          Important Reality - UNIX still exists in: Banking systems, Telecom, Large enterprise legacy systems but Linux replaced UNIX in many environments because it is open-source, cost-effective, hardware-independent, and better suited for cloud and DevOps technologies.
+
+          Linux is free and Open source 
+
+          Faster Innovation
+
+          Better Community spport 
+
+          Perfect for cloud and automation 
+
 
