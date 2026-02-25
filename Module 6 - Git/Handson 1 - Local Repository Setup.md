@@ -1,4 +1,4 @@
-Handson 1: Loacl Repository Setup 
+Local Repository Setup 
 --------------------------------
 
 1. Creating an Git Repository and initialize the repository by using " git inti " 
