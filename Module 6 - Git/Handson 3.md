@@ -1,4 +1,5 @@
 HANDSON 3 - MAKING CHANGES IN LOCAL & REMOTE REPOSITORY AND PERFORMING PUSH & PULL COMMAND 
+-------------
 
 1. Open any file and edit them by using an Vi editor 
 
