@@ -7,16 +7,18 @@ To build a simple network we need,
      5. IP Addressing 
      6. Networking Protocols 
 
-|S.No	    |Component	                        |Description	                             |   Example	                           |            Why It Is Needed
-|-------------|----------------------------------|--------------------------------------------|------------------------------------------|-------------------------------------------------------|
-|1	         |End Devices	                   | Devices that send/receive data	         |   Laptop, Desktop, Server, Printer	  |     At least 2 devices are required to form a network |
-|2	         |Network Interface Card (NIC)	    | Hardware that connects device to network   |  Ethernet port, WiFi adapter	            |     Provides MAC address and enables communication    | 
-|3	         |Transmission Media	              | Medium through which data travels	         |   Ethernet cable, Fiber optic, WiFi	  |     Carries data between devices                      |
-|4	         |Switch	                        | Connects devices within same network	    |   8-port switch	                      |     Enables internal communication in LAN             |
-|5	         |Router	                        | Connects different networks	              |  Home WiFi router	                      |     Connects LAN to Internet                          |
-|6	         Modem	                             | Connects network to ISP	                   |   Broadband modem	                      |     Converts ISP signal for router                    |
-|7	         |IP Addressing	                   | Logical addressing system	              |  192.168.1.10	                           |     Identifies devices uniquely                       |
-|8	         |Network Protocols	              | Rules for communication	                   |   TCP/IP, HTTP, DNS	                 |     Ensures proper data transfer                      |
+## Basic Networking Components
+
+| S.No | Component                     | Description                                      | Example                               | Why It Is Needed                                  |
+|------|--------------------------------|--------------------------------------------------|----------------------------------------|---------------------------------------------------|
+| 1    | End Devices                    | Devices that send and receive data              | Laptop, Desktop, Server, Printer      | At least 2 devices are required to form a network |
+| 2    | Network Interface Card (NIC)   | Hardware that connects device to network        | Ethernet port, WiFi adapter           | Provides MAC address and enables communication    |
+| 3    | Transmission Media             | Medium through which data travels               | Ethernet cable, Fiber optic, WiFi     | Carries data between devices                      |
+| 4    | Switch                         | Connects devices within same network (LAN)     | 8-port switch                         | Enables internal communication in LAN             |
+| 5    | Router                         | Connects different networks                     | Home WiFi router                      | Connects LAN to Internet                          |
+| 6    | Modem                          | Connects network to ISP                         | Broadband modem                       | Converts ISP signal for router                    |
+| 7    | IP Addressing                  | Logical addressing system                       | 192.168.1.10                           | Identifies devices uniquely                       |
+| 8    | Network Protocols              | Rules for communication                         | TCP/IP, HTTP, DNS                     | Ensures proper data transfer                      |
 
 Intermediate Devices: 
 1. SWITCH: - A switch connects multiple devices inside the same network (LAN).
