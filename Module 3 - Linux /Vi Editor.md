@@ -1,4 +1,4 @@
- vi Editor:
+ Vi Editor:
  ---
 
 - vi (Visual Editor) is a command-line text editor used in Linux/Unix systems to create and edit files.
