@@ -118,6 +118,11 @@ Handson of redirection Commands:
 
 <img width="597" height="110" alt="image" src="https://github.com/user-attachments/assets/4e8ca515-e7a4-4ea2-895f-40a5a48c8716" />
 
+- Pipe - |
+
+<img width="628" height="67" alt="image" src="https://github.com/user-attachments/assets/1eba7424-4424-42c9-981e-2ccc9e24ddfa" />
+
+
 
 
 
