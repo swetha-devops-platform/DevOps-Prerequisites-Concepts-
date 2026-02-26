@@ -1,0 +1,113 @@
+# What are Users in Linux?
+
+A **User** is an account that can log in and access the Linux system.
+
+Each user has:
+
+* Username
+* User ID (UID)
+* Home directory
+* Default shell
+
+##  Types of Users in Linux
+
+| Type        | Description                     | Example      |
+| ----------- | ------------------------------- | ------------ |
+| Root User   | Superuser with full permissions | root         |
+| System User | Used by services & applications | nginx, mysql |
+| Normal User | Regular login user              | swetha       |
+
+---
+
+###  Root User
+
+* UID = 0
+  
+* Full control over system
+  
+* Can install, delete, modify anything
+
+Be careful while using root.
+
+### System Users
+
+* Created for services
+  
+* Usually cannot login
+  
+* Used by daemons (background processes)
+
+Example:
+
+* nginx
+* apache
+* mysql
+
+
+### Normal Users
+
+* Created for human users
+  
+* Limited permissions
+  
+* Has home directory like `/home/swetha`
+
+
+
+# What are Groups in Linux?
+
+A **Group** is a collection of users.
+
+- Groups are used to:
+
+  * Manage permissions easily
+    
+  * Control access to files & directories
+    
+  * Improve security
+
+Instead of giving permission to each user, we assign permission to a group.
+
+---
+
+## 🔹 Types of Groups
+
+| Type            | Description                       |
+| --------------- | --------------------------------- |
+| Primary Group   | Default group assigned to user    |
+| Secondary Group | Additional groups user belongs to |
+
+---
+
+### Example:
+
+If Swetha is in `devops` group:
+
+All users in `devops` group can access shared project files.
+
+---
+
+# Where User & Group Info is Stored?
+
+| File        | Purpose                    |
+| ----------- | -------------------------- |
+| /etc/passwd | Stores user details        |
+| /etc/shadow | Stores encrypted passwords |
+| /etc/group  | Stores group details       |
+
+---
+
+# Important Commands
+
+| Command                | Purpose                   |
+| ---------------------- | ------------------------- |
+| useradd username       | Create new user           |
+| passwd username        | Set password              |
+| userdel username       | Delete user               |
+| groupadd groupname     | Create group              |
+| usermod -aG group user | Add user to group         |
+| id username            | Show user ID & group info |
+| whoami                 | Show current user         |
+
+
+
