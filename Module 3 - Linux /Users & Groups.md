@@ -56,6 +56,14 @@ Example:
   
 * Has home directory like `/home/swetha`
 
+- Adding User - [ useradd ] Command is used to add an user
+
+
+<img width="660" height="70" alt="image" src="https://github.com/user-attachments/assets/3564ebfd-efaa-49dd-a96e-78668abd1a0c" />
+
+Here id Command is used to print the id of the users and groups 
+
+
 
 
 # What are Groups in Linux?
