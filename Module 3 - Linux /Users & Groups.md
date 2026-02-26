@@ -18,7 +18,7 @@ Each user has:
 | Normal Users | 1000 and above | Usually same as username | /home/username | /bin/bash | Regular human users who log into the system |
 
 
-<img width="618" height="657" alt="image" src="https://github.com/user-attachments/assets/3ea888ba-2f2d-4536-a493-844fd3623296" />
+<img width="622" height="88" alt="image" src="https://github.com/user-attachments/assets/2b0a19e7-5dea-4ea9-ab86-0a98cfe80350" />
 
 
 ---
