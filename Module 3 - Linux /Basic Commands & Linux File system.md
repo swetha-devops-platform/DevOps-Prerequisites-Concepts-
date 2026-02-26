@@ -1,3 +1,37 @@
+Basic Commands Used in Linux: 
+--
+
+- whoami command - This command tells you about who is the user
+
+<img width="440" height="63" alt="image" src="https://github.com/user-attachments/assets/6226e66b-fe6f-46d7-8943-db1befa1a994" />
+
+
+
+- pwd - present working directory
+
+<img width="396" height="129" alt="image" src="https://github.com/user-attachments/assets/8df36f34-3e86-46be-a07b-0bca6590443a" />
+
+
+- ls - Listing the files
+
+<img width="553" height="85" alt="image" src="https://github.com/user-attachments/assets/2f0e57dc-a4d0-4544-892d-d677aa44c9db" />
+
+
+- cat Command - It is used to print the content of the file
+
+<img width="954" height="274" alt="image" src="https://github.com/user-attachments/assets/d7dbe5a7-d117-4795-9603-2ad9666596a5" />
+
+
+How to switch into Root User ? 
+--
+
+- sudo -i - This command is used to switch into an root user
+
+
+<img width="422" height="134" alt="image" src="https://github.com/user-attachments/assets/8d3703c2-272b-4e74-9fea-75bad30a0c5b" />
+
+
+
 LINUX FILE SYSTEM :
 -------
 - The Linux File System is the way Linux organizes, stores, and manages files and directories.
@@ -14,6 +48,13 @@ LINUX FILE SYSTEM :
 
 
  <img width="728" height="590" alt="image" src="https://github.com/user-attachments/assets/c7d6f7db-5a2c-4ad7-9f27-0df1f54be271" />
+
+
+- cd command - This command is said to be an changing directory
+
+<img width="1233" height="96" alt="image" src="https://github.com/user-attachments/assets/01a75a6d-37ca-494a-9075-209ed8cc7d61" />
+
+The above mentioned Images shows you the File system of the linux 
 
 
 | Directory | Purpose | Real-Time DevOps Usage |
