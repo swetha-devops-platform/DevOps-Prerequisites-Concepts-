@@ -5,6 +5,13 @@ This repository documents my hands-on learning and practice of core DevOps found
 
 The focus of this learning phase is to build strong system administration, automation, and version control fundamentals required for a DevOps Engineer role.
 
+It is specially structured in a simple and beginner-friendly way so that:
+
+- Non-IT background learners can understand core concepts easily
+- Career switchers can build strong fundamentals
+- Beginners can follow step-by-step practical learning
+- Anyone can use this as structured DevOps foundation notes for interview puropose also 
+
 Concepts Covered
 ---------------------------------
 
