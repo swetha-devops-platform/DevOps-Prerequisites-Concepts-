@@ -2,6 +2,7 @@ DevOps Foundations – February Learning Journey
 ------------------------------------------------------------------------------
 
 This repository documents my hands-on learning and practice of core DevOps foundational concepts.
+
 The focus of this learning phase is to build strong system administration, automation, and version control fundamentals required for a DevOps Engineer role.
 
 Concepts Covered
