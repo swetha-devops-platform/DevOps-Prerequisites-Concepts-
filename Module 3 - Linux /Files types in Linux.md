@@ -1,0 +1,33 @@
+Linux File Types
+------
+
+In Linux, everything is treated as a file.  
+Linux supports different types of files.
+
+File Types in Linux
+----
+
+| File Type | Symbol | Description | Example |
+|------------|--------|-------------|----------|
+| Regular File | `-` | Normal files that store data, text, scripts, etc. | file.txt, script.sh |
+| Directory | `d` | Contains other files and directories. | /home, /etc |
+| Character Device File | `c` | Handles data character by character (keyboard, mouse). | /dev/tty |
+| Block Device File | `b` | Handles data in blocks (hard disks). | /dev/sda |
+| Symbolic Link (Soft Link) | `l` | Points to another file or directory. | link -> file.txt |
+| Hard Link | `-` | Another name for same inode (same file). | ln file1 file2 |
+| FIFO (Named Pipe) | `p` | Used for inter-process communication. | mkfifo mypipe |
+| Socket File | `s` | Used for communication between processes. | /var/run/docker.sock |
+
+
+Basic Command : 
+
+- ls -a --- This commands will list the hidden files
+
+
+<img width="633" height="54" alt="image" src="https://github.com/user-attachments/assets/c5a36229-0d6b-4101-91c2-f94f33f8264e" />
+
+
+- ls -l --- This Command will list the types of file
+
+<img width="632" height="151" alt="image" src="https://github.com/user-attachments/assets/aa511cb0-c2fd-404c-862e-db9922901f61" />
+
