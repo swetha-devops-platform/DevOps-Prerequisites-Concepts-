@@ -159,7 +159,7 @@ Press Esc to return to Command Mode.
 
 
 
-Last Line Mode
+Last Line Mode or extended mode 
 -
 
 - Used for saving and quitting.
