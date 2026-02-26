@@ -16,7 +16,7 @@ LINUX FILE SYSTEM :
  <img width="728" height="590" alt="image" src="https://github.com/user-attachments/assets/c7d6f7db-5a2c-4ad7-9f27-0df1f54be271" />
 
 
- | Directory | Purpose | Real-Time DevOps Usage |
+| Directory | Purpose | Real-Time DevOps Usage |
 |-----------|----------|------------------------|
 | / | Root directory (top level). Base of entire file system. | Starting point of Linux structure |
 | /bin | Essential user command binaries (ls, cp, mv). | Used for basic command execution |
@@ -32,6 +32,8 @@ LINUX FILE SYSTEM :
 | /var | Log files & variable data (logs, spool, cache). | Log monitoring & troubleshooting (/var/log) |
 | /tmp | Temporary files. | Temporary script execution & testing |
 | /proc | Virtual file system containing process info. | System & process monitoring |
+| /mnt | Temporary mount point for file systems. | Manually mounting storage devices |
+| /media | Mount point for removable media (USB, CD-ROM). | Auto-mounted external devices |
 
 
 
