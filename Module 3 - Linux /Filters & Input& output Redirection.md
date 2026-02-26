@@ -106,5 +106,21 @@ Linux has 3 standard streams:
 | `&>` | Redirect both output & error | `command &> file.txt` |
 
 
+Handson of redirection Commands: 
+
+- Output Redirection - >
+
+
+<img width="599" height="130" alt="image" src="https://github.com/user-attachments/assets/303d454d-8a50-4f11-ad2a-3fcd763f4815" />
+
+
+- Append Output -  >>
+
+<img width="597" height="110" alt="image" src="https://github.com/user-attachments/assets/4e8ca515-e7a4-4ea2-895f-40a5a48c8716" />
+
+
+
+
+
 
 
