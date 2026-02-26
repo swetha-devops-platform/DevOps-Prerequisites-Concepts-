@@ -1,0 +1,73 @@
+What is Package Management in Linux?
+-
+
+- A **Package** is a collection of software files bundled together.
+
+- A **Package Manager** is a tool used to:
+
+  * Install software
+  * Update software
+  * Remove software
+  * Manage dependencies
+
+Instead of manually downloading and installing software, Linux uses package managers.
+
+
+
+# Why Package Management is Important?
+
+In DevOps, you will:
+
+* Install tools (nginx, docker, git, java)
+* Update security patches
+* Manage application dependencies
+* Automate server setup
+
+---
+
+# Types of Package Managers (Based on Linux Distribution)
+
+##  Debian / Ubuntu Based Systems
+
+Package Format: `.deb`
+Package Manager: `apt`
+
+Common Commands:
+
+| Command                  | Purpose                    |
+| ------------------------ | -------------------------- |
+| sudo apt update          | Update package list        |
+| sudo apt upgrade         | Upgrade installed packages |
+| sudo apt install package | Install package            |
+| sudo apt remove package  | Remove package             |
+| sudo apt search package  | Search package             |
+
+---
+
+## RHEL / CentOS / Fedora Based Systems
+
+Package Format: `.rpm`
+Package Manager: `yum` / `dnf`
+
+Common Commands:
+
+| Command                  | Purpose                 |
+| ------------------------ | ----------------------- |
+| sudo yum install package | Install package         |
+| sudo yum remove package  | Remove package          |
+| sudo yum update          | Update packages         |
+| sudo dnf install package | Install (newer systems) |
+
+
+
+# What is Dependency?
+
+When installing software, it may require other libraries.
+
+Package manager automatically:
+
+  * Downloads required dependencies
+  * Installs them
+  * Maintains version control
+
+This is why package management is powerful 
