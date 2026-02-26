@@ -17,6 +17,10 @@ Each user has:
 | System Users | 1 – 999 (varies by distro) | System group ID | /nonexistent or /var/lib/service | /sbin/nologin or /bin/false | Used by system services (nginx, mysql, apache) |
 | Normal Users | 1000 and above | Usually same as username | /home/username | /bin/bash | Regular human users who log into the system |
 
+
+<img width="618" height="657" alt="image" src="https://github.com/user-attachments/assets/3ea888ba-2f2d-4536-a493-844fd3623296" />
+
+
 ---
 
 ###  Root User
