@@ -1,8 +1,8 @@
 Linux File Types
 ------
 
-In Linux, everything is treated as a file.  
-Linux supports different types of files.
+- In Linux, everything is treated as a file.  
+- Linux supports different types of files.
 
 File Types in Linux
 ----
