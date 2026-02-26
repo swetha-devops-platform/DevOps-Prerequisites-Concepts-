@@ -11,11 +11,11 @@ Each user has:
 
 ##  Types of Users in Linux
 
-| Type        | Description                     | Example      |
-| ----------- | ------------------------------- | ------------ |
-| Root User   | Superuser with full permissions | root         |
-| System User | Used by services & applications | nginx, mysql |
-| Normal User | Regular login user              | swetha       |
+| User Type | UID Range | GID | Home Directory | Default Shell | Purpose |
+|------------|------------|------|----------------|---------------|----------|
+| Root User | 0 | 0 | /root | /bin/bash (or /bin/sh) | Superuser with full system access |
+| System Users | 1 – 999 (varies by distro) | System group ID | /nonexistent or /var/lib/service | /sbin/nologin or /bin/false | Used by system services (nginx, mysql, apache) |
+| Normal Users | 1000 and above | Usually same as username | /home/username | /bin/bash | Regular human users who log into the system |
 
 ---
 
